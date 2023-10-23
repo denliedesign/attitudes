@@ -1,4 +1,4 @@
-<div id="top" class="bg-dark py-2 font-syne d-flex justify-content-between">
+<div id="top" class="bg-dark pt-2 font-syne d-flex justify-content-between">
     <ul class="nav">
         <li class="nav-item text-white-50 mx-4">
             <ion-icon name="navigate"></ion-icon>
@@ -13,9 +13,9 @@
             info@attitudesmotion.com
         </li>
     </ul>
-    <ul>
-        <li class="nav-item text-white-50 mx-4">
-            <a href="/">Parent Login</a>
+    <ul style="list-style-type: none;">
+        <li class="nav-item mx-4">
+            <a href="/" class="text-white-50 text-decoration-none">Parent Login</a>
         </li>
     </ul>
 </div>

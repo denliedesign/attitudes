@@ -74,5 +74,5 @@
 <div id="bottom" class="bg-dark text-white-50 text-center py-3 font-syne">
     © 2023 Attitudes in Motion
     <br>
-    <a class="text-decoration-none" href="https://denliedesign.com/" target="_blank"><small>Dance Website Design by Denlie Design</small></a>
+    <a class="text-decoration-none text-white-50" href="https://denliedesign.com/" target="_blank"><small>Dance Website Design by Denlie Design</small></a>
 </div>

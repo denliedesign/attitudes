@@ -400,7 +400,7 @@
                 <div class="text-center rounded p-3" style="font-size: 1.75em; border: 4px solid #AFD237;">
                         <div>
                             Students who attend dance regularly:
-                            <ul>
+                            <ul style="list-style-type: none;">
                                 <li>&middot; Earn higher GPAs</li>
                                 <li>&middot; Perform better in science, math, and writing</li>
                                 <li>&middot; Earn higher test scores on SATs</li>
