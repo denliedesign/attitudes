@@ -17,8 +17,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/teachers', function () {
+    return view('/teachers');
+});
 Route::get('/aboutus', function () {
     return view('/aboutus');
+});
+Route::get('/schedule', function () {
+    return view('/schedule');
+});
+Route::get('/classes', function () {
+    return view('/classes');
 });
 
 Route::get('/dashboard', function () {

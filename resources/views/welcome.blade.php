@@ -9,7 +9,7 @@
                 <br>
                 <span style="font-size: 0.5em; font-weight: normal; text-shadow: 1px 2px 4px black;" class="txt-crimson">Your child will fall in love with dance with our classes for ages 1-18!</span>
                 <br>
-                <a href="/"><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
+                <a href="/schedule"><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
             </h2>
         </div>
         <img src="/images/header-aim.jpg" alt="" class="img-fluid" style="z-index: 0; width: 100%;">
@@ -24,7 +24,7 @@
                 <small class="txt-crimson font-syne">Your child will fall in love with dance with our classes for ages 1-18!</small>
                 <br>
             <div class="d-flex justify-content-center">
-                <a href="/"><div class="shadow btn btn-lg btn-danger mb-2">Find Your Class</div></a>
+                <a href="/schedule"><div class="shadow btn btn-lg btn-danger mb-2">Find Your Class</div></a>
             </div>
             </p>
         </div>
@@ -101,38 +101,38 @@
         <div class="container">
             <div class="font-staat text-white text-center" style="font-size: 100px;">classes</div>
             <div class="row">
-                <div class="col-sm my-2" style="position: relative;">
+                <div class="col-sm my-2" style="position: relative; z-index: 3;">
                     <img src="/images-lava/classes-1-2.jpg" alt="dancer posing" class="img-fluid">
-                    <a class="triangle-and-text" href="/">
+                    <a class="triangle-and-text" href="/schedule#class-1-6">
                         <div id="triangle-bottomleft"></div>
                         <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 6 & under</div>
                     </a>
                 </div>
-                <div class="col-sm my-2" style="position: relative;">
+                <div class="col-sm my-2" style="position: relative; z-index: 3;">
                     <img src="/images-lava/classes-3-4.jpg" alt="dancer posing" class="img-fluid">
-                    <a class="triangle-and-text" href="/">
+                    <a class="triangle-and-text" href="/schedule#class-7-12">
                         <div id="triangle-bottomleft"></div>
                         <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">7-12 years</div>
                     </a>
                 </div>
                 {{--                <div class="col-sm my-2"></div>--}}
-                <div class="col-sm my-2" style="position: relative;">
+                <div class="col-sm my-2" style="position: relative; z-index: 3;">
                     <img src="/images-lava/classes-5-6-resize.jpg" alt="dancer posing" class="img-fluid">
-                    <a class="triangle-and-text" href="/">
+                    <a class="triangle-and-text" href="/schedule#class-teens">
                         <div id="triangle-bottomleft"></div>
                         <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Teens</div>
                     </a>
                 </div>
                 <div class="col-sm my-2" style="position: relative; z-index: 3;">
                     <img src="/images-lava/classes-7-8.jpg" alt="dancer posing" class="img-fluid">
-                    <a class="triangle-and-text" href="/">
+                    <a class="triangle-and-text" href="/schedule#class-boys">
                         <div id="triangle-bottomleft"></div>
                         <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">All Boys</div>
                     </a>
                 </div>
                 <div class="col-sm my-2" style="position: relative; z-index: 3;">
                     <img src="/images-lava/classes-9-12.jpg" alt="dancer posing" class="img-fluid">
-                    <a class="triangle-and-text" href="/">
+                    <a class="triangle-and-text" href="/schedule#class-adults">
                         <div id="triangle-bottomleft"></div>
                         <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Adults</div>
                     </a>
@@ -580,7 +580,7 @@
                 <h2 class="fw-bold text-center text-white" style="font-size: 2.75em;">Our Guarantee</h2>
                 <p class="text-center txt-crimson" style="font-size: 1.75em;">You'll love your experience or we'll work with you to make it right!</p>
                 <div class="d-flex justify-content-center">
-                    <a href="/"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Find Your Class</div></a>
+                    <a href="/schedule"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Find Your Class</div></a>
                     <a href="mailto:@gmail.com?subject=Schedule A Call"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Schedule A Call</div></a>
                 </div>
             </div>

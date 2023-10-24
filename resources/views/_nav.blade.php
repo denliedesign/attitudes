@@ -44,17 +44,17 @@
 {{--                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">mini camps</a></li>--}}
 {{--                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">recital</a></li>--}}
 {{--                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="#footer">contact</a></li>--}}
-                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Teachers</a></li>
-                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Schedule</a></li>
+                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/teachers">Teachers</a></li>
+                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/schedule">Schedule</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Competition</a></li>
-                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Classes</a></li>
+                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/classes">Classes</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Events</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Parents</a></li>
-                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Contact</a></li>
-                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">About</a></li>
+                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="#footer">Contact</a></li>
+                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/aboutus">About</a></li>
 
                 <li class="nav-item mx-2">
-                    <a href="/" class="nav-link">
+                    <a href="/schedule" class="nav-link">
                         <div class="btn btn-danger shadow">Find Your Class</div>
                     </a>
                 </li>

@@ -1,4 +1,4 @@
-<div class="bg-dark text-white pb-5 font-syne">
+<div class="bg-dark text-white pb-5 font-syne" id="footer">
     <div class="container" id="footer">
         <div class="pt-5">
             <div class="row m-0 p-0">

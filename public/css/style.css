@@ -19,17 +19,31 @@ red
     background: linear-gradient(to right, #fff, #FFF5EE) !important;
 }
 
-.txt-green { color: #10c45c; }
-.txt-blue { color: #307ad5; }
-.txt-pink { color: #d94da6; }
-.btn-blue { background: rgba(48, 122, 213, 1) !important; color: white !important; }
-.btn-green { background: rgba(16, 196, 92, 1) !important; color: white !important; }
-.btn-pink { background: rgba(217, 77, 166, 1) !important; color: white !important; }
-.btn-blue:hover { background: rgba(48, 122, 213, 0.7) !important; color: white !important; }
-.btn-green:hover { background: rgba(16, 196, 92, 0.7) !important; color: white !important; }
-.btn-pink:hover { background: rgba(217, 77, 166, 0.7) !important; color: white !important; }
+.txt-green { color: #AFD237; }
+.txt-blue { color: #5AB2E4; }
+.txt-pink { color: #E2459C; }
+.btn-green { background: rgba(175, 210, 55, 1) !important; }
+.btn-blue { background: rgba(90, 178, 228, 1) !important; }
+.btn-pink { background: rgba(226, 69, 156, 1) !important; }
+.btn-red { background: rgba(238, 27, 77, 1) !important; }
+.btn-green:hover, .btn-green-outline:hover { background: rgba(175, 210, 55, 0.7) !important; }
+.btn-blue:hover, .btn-blue-outline:hover { background: rgba(90, 178, 228, 0.7) !important; }
+.btn-pink:hover, .btn-pink-outline:hover { background: rgba(226, 69, 156, 0.7) !important; }
+.btn-red:hover, .btn-red-outline:hover { background: rgba(238, 27, 77, 0.7) !important; }
+.btn-green-outline { border: 1px solid rgba(175, 210, 55, 1) !important; }
+.btn-blue-outline { border: 1px solid rgba(90, 178, 228, 1) !important; }
+.btn-pink-outline { border: 1px solid rgba(226, 69, 156, 1) !important; }
+.btn-red-outline { border: 1px solid rgba(238, 27, 77, 1) !important; }
+
 .btn-family {
-    color: white;
+    color: white !important;
+    border-radius: 30px;
+    transition: background 0.4s ease;
+    padding: 10px 20px;
+}
+
+.btn-family-outline {
+    color: black !important;
     border-radius: 30px;
     transition: background 0.4s ease;
     padding: 10px 20px;
