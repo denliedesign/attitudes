@@ -15,7 +15,7 @@
     </ul>
     <ul style="list-style-type: none;">
         <li class="nav-item mx-4">
-            <a href="/" class="text-white-50 text-decoration-none">Parent Login</a>
+            <a href="https://app.jackrabbitclass.com/jr3.0/ParentPortal/Login?orgID=509319" target="_blank" class="text-white-50 text-decoration-none">Parent Login</a>
         </li>
     </ul>
 </div>

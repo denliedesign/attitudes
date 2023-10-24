@@ -444,7 +444,7 @@
                     <div class="col-sm">
                         <div class="next-step mx-1 shadow py-5">
                             <p class="txt-green">Ready To Leap In?</p>
-                            <a href="/" target="_blank"
+                            <a href="https://app.jackrabbitclass.com/regv2.asp?id=509319" target="_blank"
                                class="">
                                 <div class="shadow btn btn-lg btn-green btn-family">&#10097; Enroll today!</div>
                             </a>
