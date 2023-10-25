@@ -40,4 +40,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('trial', 'App\Http\Controllers\TrialController@create')->name('trial.create');
+Route::post('trial', 'App\Http\Controllers\TrialController@store')->name('trial.store');
+
 require __DIR__.'/auth.php';

@@ -31,15 +31,15 @@ function animate() {
         }
     });
     gsap.to("#arrow-skip", { duration: 1, delay: 0.1, repeatDelay: 0.1, ease: "elastic.in(0.1, 0.1)", y: 5, repeat: 10, yoyo: true});
-    gsap.to('#animate-welcome-txt', {duration: 2, delay: 0.2, ease: 'power1.out', y: 0
-        // gsap.to('#animate-welcome-box', {duration: 3, delay: 1, ease: 'power1.out', y: 200
-        // scrollTrigger: {
-        //     trigger: '.main-logo',
-        //     start: 'top top+=10%',
-        //     end: 'bottom center',
-        //     scrub: true,
-        // }
-    });
+    // gsap.to('#animate-welcome-txt', {duration: 2, delay: 0.2, ease: 'power1.out', y: 0});
+    //     //     gsap.to('#summer-stick', {duration: 3, delay: 1, ease: 'power1.out', x: 200,
+    //     //     scrollTrigger: {
+    //     //         // trigger: '.main-logo',
+    //     //         start: 'top top+=10%',
+    //     //         end: 'bottom center',
+    //     //         scrub: true,
+    //     //     }
+    //     // });
     gsap.to('.apple-effect', {y: '250', scrollTrigger: {
             scrub: true,
         }});
@@ -62,10 +62,22 @@ window.addEventListener('load', function(){
 //     gsap.to(window, {duration: 2, ease: 'none', scrollTo: "#bottom"});
 // }
 
-window.onload = function() {
-    var src = document.getElementById("inputEmail"),
-        dst = document.getElementById("email");
-    src.addEventListener('input', function() {
-        dst.value = src.value;
-    });
-};
+function showModal() {
+    // Get the email from the initial form
+    var email = document.getElementById("inputEmail").value;
+
+    // Populate the email field in the modal form
+    document.getElementById("email").value = email;
+
+    // Show the modal
+    var modal = new bootstrap.Modal(document.getElementById("exampleModal"));
+    modal.show();
+}
+
+// window.onload = function() {
+//     var src = document.getElementById("inputEmail"),
+//         dst = document.getElementById("email");
+//     src.addEventListener('input', function() {
+//         dst.value = src.value;
+//     });
+// };

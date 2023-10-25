@@ -12,6 +12,16 @@ red
 #EE1B4D
  */
 
+#side-trial {
+    width: 365px;
+    height: 150px;
+    top: 25%;
+    border-radius: 5px 0 0 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
 .bg-seashell {
     background: linear-gradient(to left, #fff, #FFF5EE) !important;
 }

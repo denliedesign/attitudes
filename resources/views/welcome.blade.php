@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+    @include('_trial-modal')
 
     <div style="position: relative;" class="d-none d-lg-block">
         <div style="position:absolute; bottom: 40%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
@@ -318,20 +319,20 @@
                             Find joy in moving
                             </span>
                         </div>
-                        <div class="txt-crimson" style="font-size: 1.5em;">Try your <a href="" target="_blank"><div class="btn btn-lg btn-danger fw-bold shadow text-white"><u>FREE</u> trial class</div></a> today.</div>
+                        <div class="mt-2" style="font-size: 1.5em;">Try a <u>NO RISK</u> trial class today.</div>
                     </div>
                 </div>
                 <div class="col-sm d-flex justify-content-center align-items-center">
-                    {{--                    <form action="">--}}
-                    {{--                        <div class="row g-0 align-items-center">--}}
-                    {{--                            <div class="col-auto mx-0">--}}
-                    {{--                                <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">--}}
-                    {{--                            </div>--}}
-                    {{--                            <div class="col-auto mx-0">--}}
-                    {{--                                <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" data-bs-toggle="modal" data-bs-target="#exampleModal">SUBMIT</button>--}}
-                    {{--                            </div>--}}
-                    {{--                        </div>--}}
-                    {{--                    </form>--}}
+                                        <form action="javascript:void(0);" method="POST" onsubmit="return false;">
+                                            <div class="row g-0 align-items-center">
+                                                <div class="col-auto mx-0">
+                                                    <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">
+                                                </div>
+                                                <div class="col-auto mx-0">
+                                                    <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>
+                                                </div>
+                                            </div>
+                                        </form>
                 </div>
             </div>
         </div>
@@ -451,14 +452,14 @@
                         </div>
                     </div>
                     <div class="col-sm">
-                        {{--                        <div class="next-step mx-1 shadow py-5">--}}
-                        {{--                            <p class="txt-blue">Want To Give It A Try?</p>--}}
-                        {{--                            <div>--}}
-                        {{--                                <button type="button" class="shadow btn btn-lg btn-blue btn-family"--}}
-                        {{--                                        data-bs-toggle="modal" data-bs-target="#exampleModal">&#10097; Schedule A Trial!--}}
-                        {{--                                </button>--}}
-                        {{--                            </div>--}}
-                        {{--                        </div>--}}
+                                                <div class="next-step mx-1 shadow py-5">
+                                                    <p class="txt-blue">Want To Give It A Try?</p>
+                                                    <div>
+                                                        <button type="button" class="shadow btn btn-lg btn-blue btn-family"
+                                                                data-bs-toggle="modal" data-bs-target="#exampleModal">&#10097; Schedule A Trial!
+                                                        </button>
+                                                    </div>
+                                                </div>
                     </div>
                     <div class="col-sm">
                         <div class="next-step mx-1 shadow py-5">
