@@ -29,6 +29,9 @@ Route::get('/schedule', function () {
 Route::get('/classes', function () {
     return view('/classes');
 });
+Route::get('/competition-team', function () {
+    return view('/competition-team');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

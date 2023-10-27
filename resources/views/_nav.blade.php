@@ -46,7 +46,7 @@
 {{--                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="#footer">contact</a></li>--}}
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/teachers">Teachers</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/schedule">Schedule</a></li>
-                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Competition</a></li>
+                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/competition-team">Competition</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/classes">Classes</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Events</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Parents</a></li>
