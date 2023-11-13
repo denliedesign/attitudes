@@ -81,3 +81,11 @@ function showModal() {
 //         dst.value = src.value;
 //     });
 // };
+
+function AddContentTag(c) {
+    document.getElementById('tag').value += c;
+};
+
+function AddPhotoTag(c) {
+    document.getElementById('photoTag').value += c;
+};

@@ -12,46 +12,36 @@
 
     <h3 class="font-staat text-center my-4" style="font-size: 100px; line-height: 0.9em;">Teachers</h3>
 
+    <!-- ADMIN CONTROL -->
+    @can('update', \App\Teacher::class)
+        <div id="teachers" style="border:2px solid red;" class="my-3 py-1 rounded shadow">
+            <span class="fw-bold mx-3">teacher section</span>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#teacherModal">
+                Add New
+            </button>
+            @include('/teachers/form')
+        </div>
+    @endcan
+    <!-- END ADMIN CONTROLS -->
+
     <div class="bg-red-solid py-5" style="position: relative; height: 100%;">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
+                @foreach($teachers as $teacher)
                 <div class="col-sm mt-3 text-white" style="height: 100%;">
+                    @include('/teachers/admin')
                     <div style="position: relative;">
-                        <img src="/images-lava/staff-misty.jpg" alt="staff member" class="img-fluid" style="max-height: 382.50px;">
+                        <img src="{{ asset('/storage/' . $teacher->teacherImage) }}" alt="staff member" class="img-fluid" style="max-height: 382.50px;">
                         <div id="triangle-bottomleft-staff"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 0;">Miss<br>Misty Lown</div>
+                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 0;">{{ $teacher->name }}</div>
                     </div>
-                    <p class="font-syne">
-                        <span class="txt-yellow" style="font-size: 1.4em;">CEO Owner Founder</span><br>
-                        Miss Misty has been sharing her passion for dance and mentorship with students for 30 years. She is the founder of More Than Just Great Dancing™ affiliated dance studios and “A Chance to Dance Foundation”, a 501(c)3 charitable organization. Misty is passionate about community service and has given over $500,000 in combined cash and studio scholarships over the past 23 years.
+                    <p class="font-syne my-0 py-0">
+                        <span class="txt-yellow" style="font-size: 1.4em;">{{ $teacher->title }}</span><br>
+                        {!! $teacher->bio !!}
                     </p>
                 </div>
-                <div class="col-sm mt-3 text-white" style="height: 100%;">
-                    <div style="position: relative;">
-                        <img src="/images-lava/staff-kylie.jpg" alt="staff member" class="img-fluid" style="max-height: 382.50px;">
-                        <div id="triangle-bottomleft-staff"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 0;">Miss<br>Kylie Williams</div>
-                    </div>
-                    <p class="font-syne">
-                        <span class="txt-yellow" style="font-size: 1.4em;">Studio Director</span><br>
-                        Miss Kylie returned to MDU in 2015 after graduating from Belhaven University with a Bachelor of Fine Arts in dance and a minor in accounting. She is the Director of our Award Winning Performance Company! She has worked with choreographers associated with Complexions, Ad Deum, Inaside Chicago, and Limon Dance Company. Her favorite dance role was in Pitch Perfect 2.
-                    </p>
-                </div>
-            </div>
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
-                <div class="col-sm font-staat text-white d-none d-lg-block" style="font-size: 100px; transform: rotate(-90deg) translate(-50%, -50%); height: 100%;">teachers</div>
-                <div class="col-sm mt-3 d-flex align-items-center font-staat text-white d-block d-lg-none" style="font-size: 100px;">teachers</div>
-                <div class="col-sm mt-3 text-white" style="height: 100%;">
-                    <div style="position: relative;">
-                        <img src="/images-lava/staff-dennis.jpg" alt="staff member" class="img-fluid" style="max-height: 382.50px;">
-                        <div id="triangle-bottomleft-staff"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 0;">Mr<br>Dennis Williams</div>
-                    </div>
-                    <p class="font-syne">
-                        <span class="txt-yellow" style="font-size: 1.4em;">Dance Instructor</span><br>
-                        Mr. Dennis grew up studying ballet at Maple Conservatory of Dance in California. He graduated from Belhaven University with a BFA in dance and has danced professionally with Ballet Mississippi and Filter Dance Company. Additionally, he has four years of experience in Martial Arts. Mr. Dennis has taught at MDU since 2015.
-                    </p>
-                </div>
+                @endforeach
             </div>
         </div>
         <div style="height: 300px;"></div>

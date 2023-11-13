@@ -84,33 +84,80 @@
                                 <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>
                                 <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-green-outline shadow mx-2">GET STARTED</div></a>
                             </div>
-                            <div class="row">
-                                <div class="col-sm my-1">
-                                    <h3 class="text-uppercase mb-0 font-staat">Move with Me</h3>
-                                    <p class="mb-0">
-                                        Designed for our littlest dancers! This is a fun and upbeat class for dancers ages 1-3 and their caregiver. This class works on musicality, gross motor skills and following directions in a warm a friendly environment. Adults will be actively participating in class with their dancer. (*Toddler must be walking)
-                                    </p>
-                                </div>
-                                <div class="col-sm my-1">
-                                    <h3 class="text-uppercase mb-0 font-staat">Rap & Roll (Hip Hop & Acro)</h3>
-                                    <p class="mb-0">
-                                        A fun fast pasted mix of Hip Hop and tumbling for children ages 2-4 who are ready to separate from their caregiver.
-                                    </p>
-                                </div>
-                                <div class="col-sm my-1">
-                                    <h3 class="text-uppercase mb-0 font-staat">Tots in Motion</h3>
-                                    <p class="mb-0">
-                                        A warm and welcoming creative movement class for dancers ages 2-3 who are ready to separate from their caregiver. This class is filled with lots of fun music, props and imagery.
-                                    </p>
-                                </div>
-                                <div class="col-sm my-1">
-                                    <h3 class="text-uppercase mb-0 font-staat">Tutus & Tuxedos (Tap & Ballet)</h3>
-                                    <p class="mb-0">
-                                        A combination class for both ballet and tap. Children will be introduced to the foundations of basic ballet and tap steps. Children will begin to build their foundation in basic dance etiquette. This class is a wonderful, fun way to introduce children to dance and help build independence. Children will learn choreography and dances.
-                                    </p>
-                                </div>
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                                <x-content tag="schedule"/>
                             </div>
+{{--                            <div class="row">--}}
+{{--                                <div class="col-sm my-1">--}}
+{{--                                    <h3 class="text-uppercase mb-0 font-staat">Move with Me</h3>--}}
+{{--                                    <p class="mb-0">--}}
+{{--                                        Designed for our littlest dancers! This is a fun and upbeat class for dancers ages 1-3 and their caregiver. This class works on musicality, gross motor skills and following directions in a warm a friendly environment. Adults will be actively participating in class with their dancer. (*Toddler must be walking)--}}
+{{--                                    </p>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-sm my-1">--}}
+{{--                                    <h3 class="text-uppercase mb-0 font-staat">Rap & Roll <br>(Hip Hop & Acro)</h3>--}}
+{{--                                    <p class="mb-0">--}}
+{{--                                        A fun fast pasted mix of Hip Hop and tumbling for children ages 2-4 who are ready to separate from their caregiver.--}}
+{{--                                    </p>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-sm my-1">--}}
+{{--                                    <h3 class="text-uppercase mb-0 font-staat">Tots in Motion</h3>--}}
+{{--                                    <p class="mb-0">--}}
+{{--                                        A warm and welcoming creative movement class for dancers ages 2-3 who are ready to separate from their caregiver. This class is filled with lots of fun music, props and imagery.--}}
+{{--                                    </p>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-sm my-1">--}}
+{{--                                    <h3 class="text-uppercase mb-0 font-staat">Tutus & Tuxedos <br>(Tap & Ballet)</h3>--}}
+{{--                                    <p class="mb-0">--}}
+{{--                                        A combination class for both ballet and tap. Children will be introduced to the foundations of basic ballet and tap steps. Children will begin to build their foundation in basic dance etiquette. This class is a wonderful, fun way to introduce children to dance and help build independence. Children will learn choreography and dances.--}}
+{{--                                    </p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                         </div>
+            <div id="class-7-12" class="text-center font-syne">
+                <h2 class="mb-0" style="font-size: 2em;">Programs for 7-12 Years</h2>
+                <div class="my-3">
+                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">VIEW SCHEDULE</div></a>
+                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-blue-outline shadow mx-2">GET STARTED</div></a>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                    <x-content tag="schedule-7-12"/>
+                </div>
+            </div>
+            <div id="class-teens" class="text-center font-syne">
+                <h2 class="mb-0" style="font-size: 2em;">Programs for Teens</h2>
+                <div class="my-3">
+                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">VIEW SCHEDULE</div></a>
+                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-pink-outline shadow mx-2">GET STARTED</div></a>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                    <x-content tag="schedule-teens"/>
+                </div>
+            </div>
+            <div id="class-boys" class="text-center font-syne">
+                <h2 class="mb-0" style="font-size: 2em;">Programs for Boys</h2>
+                <div class="my-3">
+                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">VIEW SCHEDULE</div></a>
+                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-red-outline shadow mx-2">GET STARTED</div></a>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                    <x-content tag="schedule-boys"/>
+                </div>
+            </div>
+            <div id="class-adults" class="text-center font-syne">
+                <h2 class="mb-0" style="font-size: 2em;">Programs for Adults</h2>
+                <div class="my-3">
+                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>
+                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-green-outline shadow mx-2">GET STARTED</div></a>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                    <x-content tag="schedule-adults"/>
+                </div>
+            </div>
+
+
+
+
                         <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=383292&Session=2023-2024&hidecols=Gender,Ages,Session,Openings&sort=Class"></script>
                     </div>
                 </div>

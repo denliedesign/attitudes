@@ -2,7 +2,7 @@
     <ul class="nav">
         <li class="nav-item text-white-50 mx-4">
             <ion-icon name="navigate"></ion-icon>
-            756 Old Bethpage Road, Old Bethpage, NY 11803
+            756 Old Bethpage Road, Old Bethpage, NY 11804
         </li>
         <li class="nav-item text-white-50 mx-4">
             <ion-icon name="call"></ion-icon>
@@ -48,8 +48,8 @@
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/schedule">Schedule</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/competition-team">Competition</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/classes">Classes</a></li>
-                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Events</a></li>
-                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/">Parents</a></li>
+                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/events">Events</a></li>
+                <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/parent-portal">Parents</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="#footer">Contact</a></li>
                 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/aboutus">About</a></li>
 

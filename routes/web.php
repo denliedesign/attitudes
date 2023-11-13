@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\ContentController;
+use App\Http\Controllers\PhotoController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TeacherController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,6 +35,12 @@ Route::get('/classes', function () {
 Route::get('/competition-team', function () {
     return view('/competition-team');
 });
+Route::get('/events', function () {
+    return view('/events');
+});
+Route::get('/parent-portal', function () {
+    return view('/parent-portal');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -47,3 +56,7 @@ Route::get('trial', 'App\Http\Controllers\TrialController@create')->name('trial.
 Route::post('trial', 'App\Http\Controllers\TrialController@store')->name('trial.store');
 
 require __DIR__.'/auth.php';
+
+Route::resource('contents', ContentController::class);
+Route::resource('photos', PhotoController::class);
+Route::resource('teachers', TeacherController::class);

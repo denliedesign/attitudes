@@ -34,12 +34,15 @@
     <div class="bg-red py-5" id="skip" style="position: relative;">
         <div class="container">
             <h3 class="font-staat text-white d-none d-lg-block" style="font-size: 75px; line-height: 0.25em;">Dance makes GREAT kids!
+                <br>
+                <br>
             <span class="text-white font-syne" style="font-size: 22px;">
                 From your child’s first class to their graduation performance, your child will thrive at AIM! At AIM, dance classes are More Than Just Great Dancing!®. Our dancers go beyond technique to develop important life skills, learning to be respectful, confident, and conscientious young people who share their gifts and talents with the community.
             </span>
             </h3>
             <h3 class="text-white d-block d-lg-none font-syne" style="font-size: 22px;">
-                <span class="font-staat" style="font-size: 34px;">Dance makes GREAT kids!</span> From your child’s first class to their graduation performance, your child will thrive at AIM! At AIM, dance classes are More Than Just Great Dancing!®. Our dancers go beyond technique to develop important life skills, learning to be respectful, confident, and conscientious young people who share their gifts and talents with the community.
+                <span class="font-staat" style="font-size: 34px;">Dance makes GREAT kids!</span>
+                <br>From your child’s first class to their graduation performance, your child will thrive at AIM! At AIM, dance classes are More Than Just Great Dancing!®. Our dancers go beyond technique to develop important life skills, learning to be respectful, confident, and conscientious young people who share their gifts and talents with the community.
             </h3>
         </div>
         <div style="height: 118px;"></div>
@@ -72,21 +75,21 @@
                         </p>
                     </div>
                     <h3 class="fw-bold text-center" style="font-size: 2em;">Fun & Engaging Classrooms</h3>
-                    <div class="d-flex justify-content-center">
-                        <p class="txt-crimson" style="font-size: 1.5em;">
-                            <span class="text-red"><ion-icon name="heart"></ion-icon></span> Full time administrative team - we are always here to answer you questions
+                    <div class="d-flex justify-content-start">
+                        <p class="txt-crimson" style="font-size: 1.4em;">
+                            <span class="text-red"><ion-icon name="heart"></ion-icon></span> Full time admin team - we're always here to answer your questions
                             <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Sprung floors for injury prevention
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Experienced teachers supported with continuous professional development
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Inviting lobby w/ closed curcuit TV's to view classes
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Experienced teachers with continuous professional development
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Inviting lobby with closed circuit TV's to view classes
                             <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Ample parking
                         </p>
                     </div>
                     <h3 class="fw-bold text-center mt-4" style="font-size: 2em;">How We Support Our Students Beyond Dance </h3>
-                    <div class="d-flex justify-content-center">
-                        <p class="txt-crimson" style="font-size: 1.5em;">
-                            <span class="text-red"><ion-icon name="heart"></ion-icon></span> Student Teacher Development for College Application
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Studio-wide Community building through fundraising and live events to support those in need
-                        </p>
+                    <div class="d-flex justify-content-start">
+                        <ul class="txt-crimson" style="font-size: 1.4em;">
+                            <li>Student Teacher Development for College Application</li>
+                            <li>Studio-wide Community building through fundraising and live events to support those in need</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-sm-4"></div>
@@ -150,7 +153,7 @@
 
     <div class="py-5">
         <div class="container">
-            <h2 class="fw-bold text-center mb-2" style="font-size: 2.75em;">If you let me dance...</h2>
+            <h2 class="fw-bold text-center mb-2" style="font-size: 2.75em;">Your Child's Home Away From Home</h2>
             <div class="d-flex justify-content-center">
                 <iframe style="max-width: 854px; width: 100%; height: 480px;" src="https://www.youtube.com/embed/XLTrehdiyAo?si=67oZAirxvQjL78pG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
@@ -162,11 +165,11 @@
             <h2 class="fw-bold text-center" style="font-size: 2.75em;">28 years serving Plainview-Old Bethpage <br>and the surounding communities</h2>
 {{--            <p class="text-center">We provide dance classes for La Crosse, Onalaska, & Holmen families</p>--}}
             <div class="row" style="font-size: 1.5em;">
-                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-right: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="home"></ion-icon><br>4</span><br> dancerooms for convenient scheduling</p></div>
+                <div class="col-sm text-center d-flex align-items-top justify-content-center" style="border-right: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="home"></ion-icon><br>4</span><br> Active classrooms for convenient family scheduling</p></div>
                 <div class="d-md-none"><hr></div>
-                <div class="col-sm text-center d-flex align-items-center justify-content-center"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="school"></ion-icon><br>12</span><br> fabulous top notch teachers</p></div>
+                <div class="col-sm text-center d-flex align-items-top justify-content-center"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="school"></ion-icon><br>12</span><br> Fabulous top notch teachers</p></div>
                 <div class="d-md-none"><hr></div>
-                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-left: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="calendar"></ion-icon><br>50+</span><br> classes to choose from</p></div>
+                <div class="col-sm text-center d-flex align-items-top justify-content-center" style="border-left: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="calendar"></ion-icon><br>50+</span><br> Classes to choose from</p></div>
             </div>
         </div>
         <div style="height: 101px;"></div>
@@ -179,7 +182,7 @@
 
     <div class="container" style="position: relative;">
         <div class="row">
-            <div class="col-sm d-flex align-items-center justify-content-end">
+            <div class="d-flex align-items-center justify-content-start">
                 <h2 class="py-5 my-4 font-staat text-lowercase text-right text-red" style="font-size: 75px;">
                     keeping your dancer<br>
                     <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;"><u>happy</u></a>,
@@ -187,7 +190,7 @@
                     <a data-bs-toggle="offcanvas" href="#offcanvasSafe" role="button" style="color: inherit;"><u>safe</u></a>
                 </h2>
             </div>
-            <div class="col-sm d-flex align-items-center justify-content-center"></div>
+            <div class="d-flex align-items-center justify-content-center"></div>
             <img src="/images-lava/happy-healthy-safe.png" alt="female contemporary dancer" class="img-fluid d-none d-md-block" style="height: 465px; width: auto; position: absolute; right: 0; bottom: -2px; z-index: 3;">
         </div>
     </div>
@@ -320,19 +323,22 @@
                             </span>
                         </div>
                         <div class="mt-2" style="font-size: 1.5em;">Try a <u>NO RISK</u> trial class today.</div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <form action="javascript:void(0);" method="POST" onsubmit="return false;">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-auto mx-0">
+                                        <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">
+                                    </div>
+                                    <div class="col-auto mx-0">
+                                        <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm d-flex justify-content-center align-items-center">
-                                        <form action="javascript:void(0);" method="POST" onsubmit="return false;">
-                                            <div class="row g-0 align-items-center">
-                                                <div class="col-auto mx-0">
-                                                    <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">
-                                                </div>
-                                                <div class="col-auto mx-0">
-                                                    <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>
-                                                </div>
-                                            </div>
-                                        </form>
+
                 </div>
             </div>
         </div>
@@ -392,28 +398,30 @@
                 <div class="col-sm-1"></div>
                 <div class="col-sm d-flex justify-content-center">
                     <div class="txt-crimson text-center" style="font-size: 1.75em;">
-                        Dance boosts confidence, coordination, and compassion for others. Dancers learn hard work, perseverance, and team work. Or as we like to say around here...Dance makes great kids!
+                        Dance boosts <span class="txt-green fw-bold">confidence</span>, <span class="txt-green fw-bold">coordination</span>, and <span class="txt-green fw-bold">compassion</span> for others. Dancers learn <span class="txt-green fw-bold">hard work</span>, <span class="txt-green fw-bold">perseverance</span>, and <span class="txt-green fw-bold">team work</span>. Or as we like to say around here...Dance makes great kids!
                     </div>
                 </div>
                 <div class="col-sm-1"></div>
             </div>
             <div class="mt-3">
-                <div class="text-center rounded p-3" style="font-size: 1.75em; border: 4px solid #AFD237;">
+                <div class="text-center rounded p-3" style="font-size: 2em; border: 4px solid #AFD237;">
                         <div>
                             Students who attend dance regularly:
-                            <ul style="list-style-type: none;">
+                            <ul style="list-style-type: none;" class="pb-0 mb-0">
                                 <li>&middot; Earn higher GPAs</li>
                                 <li>&middot; Perform better in science, math, and writing</li>
                                 <li>&middot; Earn higher test scores on SATs</li>
                                 <li>&middot; Enroll in 4-year colleges and earn mostly As</li>
                             </ul>
-                            <em>Source: National Endowment for the Arts</em>
+                            <small style="font-size: 0.6em;"><em>Source: National Endowment for the Arts</em></small>
                         </div>
                 </div>
             </div>
             <div>
                 <p class="text-center txt-crimson mt-2" style="font-size: 1.75em;">
-                    At Misty's Dance Unlimited, we don't teach kids to make great dancers.<br>We teach dance to make great kids! - <em>Misty Lown</em>
+                    We don't teach kids to make great dancers.<br>We teach dance to make great kids!
+                    <br>
+                    <small style="font-size: 0.6em;"><em>- Misty Lown</em></small>
                 </p>
             </div>
         </div>
