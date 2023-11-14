@@ -330,7 +330,7 @@
                                         <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">
                                     </div>
                                     <div class="col-auto mx-0">
-                                        <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>
+                                        <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0">SUBMIT</button>
                                     </div>
                                 </div>
                             </form>

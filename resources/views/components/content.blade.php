@@ -3,7 +3,7 @@
         <span class="fw-bold mx-3">{{ $tag }} content</span>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contentModal"
-                onClick="AddContentTag('{{ $tag }}');">
+                id="createContentButton">
             Create New
         </button>
         @include('/contents/form')
