@@ -8,7 +8,7 @@
                 You <span class="text-red">belong</span> here
                 <ion-icon name="heart"></ion-icon>
                 <br>
-                <span style="font-size: 0.5em; font-weight: normal; text-shadow: 1px 2px 4px black;" class="txt-crimson">Your child will fall in love with dance with our classes for ages 1-18!</span>
+                <span style="font-size: 0.5em; font-weight: normal; text-shadow: 1px 2px 4px black;" class="txt-crimson">Your child will fall in love with dance with our classes for all ages and levels!</span>
                 <br>
                 <a href="/schedule"><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
             </h2>
@@ -22,7 +22,7 @@
             <p class="text-center" style="font-size: 1.5em;">
                 <span class="font-staat" style="font-size: 50px; line-height: 0.9;"><strong>You <span class="text-red">belong</span> here <ion-icon name="heart"></ion-icon></strong></span>
                 <br>
-                <small class="txt-crimson font-syne">Your child will fall in love with dance with our classes for ages 1-18!</small>
+                <small class="txt-crimson font-syne">Your child will fall in love with dance with our classes for all ages and levels!</small>
                 <br>
             <div class="d-flex justify-content-center">
                 <a href="/schedule"><div class="shadow btn btn-lg btn-danger mb-2">Find Your Class</div></a>
@@ -87,10 +87,11 @@
                     </div>
                     <h3 class="fw-bold text-center mt-4" style="font-size: 2em;">How We Support Our Students Beyond Dance </h3>
                     <div class="d-flex justify-content-start">
-                        <ul class="txt-crimson" style="font-size: 1.4em;">
-                            <li>Student Teacher Development for College Application</li>
-                            <li>Studio-wide Community building through fundraising and live events to support those in need</li>
-                        </ul>
+                        <div class="txt-crimson">
+                            <div style="font-size: 1.4em;"><span class="text-red"><ion-icon name="heart"></ion-icon></span> Professional Development: Opportunities to join our student teacher program
+                                <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Community Support: Through participation in fundraising and live events</div>
+                            <p class="text-muted ms-2"><small>** Participation in these programs can be added to honors society and college applications</small></p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-4"></div>
