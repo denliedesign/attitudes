@@ -32,7 +32,7 @@
     </div>
 
     <div class="bg-red py-5" id="skip" style="position: relative;">
-        <div class="container">
+        <div class="container" style="height: 100%;">
             <h3 class="font-staat text-white d-none d-lg-block" style="font-size: 75px; line-height: 0.25em;">Dance makes GREAT kids!
                 <br>
                 <br>
@@ -45,7 +45,8 @@
                 <br>From your child’s first class to their graduation performance, your child will thrive at AIM! At AIM, dance classes are More Than Just Great Dancing!®. Our dancers go beyond technique to develop important life skills, learning to be respectful, confident, and conscientious young people who share their gifts and talents with the community.
             </h3>
         </div>
-        <div style="height: 118px;"></div>
+        <div class="" style="height: 119px;"></div>
+{{--        <div class="d-block d-md-none" style="height: 119px;"></div>--}}
         <div class="custom-shape-divider-bottom-1663856745">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
@@ -162,7 +163,7 @@
 
     <div class="bg-red text-white py-5" style="position: relative;">
         <div class="container">
-            <h2 class="fw-bold text-center" style="font-size: 2.75em;">28 years serving Plainview-Old Bethpage <br>and the surounding communities</h2>
+            <h2 class="fw-bold text-center" style="font-size: 2.75em;">28 years serving Plainview-Old Bethpage <br>and the surrounding communities</h2>
 {{--            <p class="text-center">We provide dance classes for La Crosse, Onalaska, & Holmen families</p>--}}
             <div class="row" style="font-size: 1.5em;">
                 <div class="col-sm text-center d-flex align-items-top justify-content-center" style="border-right: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="home"></ion-icon><br>4</span><br> Active classrooms for convenient family scheduling</p></div>
@@ -172,7 +173,7 @@
                 <div class="col-sm text-center d-flex align-items-top justify-content-center" style="border-left: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="calendar"></ion-icon><br>50+</span><br> Classes to choose from</p></div>
             </div>
         </div>
-        <div style="height: 101px;"></div>
+        <div style="height: 102px;"></div>
         <div class="custom-shape-divider-bottom-1663852805">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
@@ -592,6 +593,12 @@
                     <a href="/schedule"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Find Your Class</div></a>
                     <a href="mailto:@gmail.com?subject=Schedule A Call"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Schedule A Call</div></a>
                 </div>
+            </div>
+            <div style="height: 67px;"></div>
+            <div class="custom-shape-divider-bottom-1663854216">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
+                </svg>
             </div>
         </div>
     </section>

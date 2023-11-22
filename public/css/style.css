@@ -252,8 +252,8 @@ red
 }
 #footer-list li,
 #footer-list a {
-    color: white !important;
-    background: #212529 !important;
+    /*color: white !important;*/
+    /*background: #212529 !important;*/
 }
 
 #brand img {
@@ -576,7 +576,7 @@ body {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 67px;
+    height: 68px;
 }
 
 .custom-shape-divider-bottom-1663854216 .shape-fill {
@@ -612,7 +612,7 @@ body {
 /**************************** ********************************/
 
 .banner-wrap {
-    height: 415px;
+    height: 416px;
     /*height: 315px;*/
 }
 
@@ -623,4 +623,40 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.facebook-button {
+    background: #0966FF;
+}
+
+.facebook-button:hover {
+    background: #3B579D;
+}
+
+.instagram-button {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    transition: background 0.3s;
+}
+
+.instagram-button:hover {
+    background: linear-gradient(45deg, #833ab4, #fd1d1d, #ffdc80, #fcaf45, #f77737, #f56040, #e1306c, #c13584, #5851db, #405de6);
+}
+
+@font-face {
+    font-family: 'Instagram';
+    src: url("/fonts/insta-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Facebook';
+    src: url("/fonts/facebook.otf") format("opentype");
+}
+
+
+.insta-font {
+    font-family: 'Instagram';
+}
+
+.fb-font {
+    font-family: 'Facebook';
 }

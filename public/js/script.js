@@ -52,6 +52,18 @@ function animate() {
     gsap.to('.animate-colors-red', {duration: 1, ease: "back.inOut(2)", y: 40});
     gsap.to('.sou-box-red', {duration: 1, ease: "back.inOut(2)", rotate: -40});
     gsap.to('.animate-red-text', {duration: 1, ease: "back.inOut(2)", opacity: 1});
+    // gsap.to('.stix', {y: '-48', scrollTrigger: {
+    //         start: "top top",
+    //         end: "+=48",
+    //         toggleActions: 'play none none reverse',
+    //         scrub: true,
+    //     }});
+    // gsap.to('.stix-mobile', {y: '-152', scrollTrigger: {
+    //         start: "top top",
+    //         end: "+=152",
+    //         toggleActions: 'play none none reverse',
+    //         scrub: true,
+    //     }});
 }
 
 window.addEventListener('load', function(){
@@ -89,3 +101,29 @@ function AddContentTag(c) {
 function AddPhotoTag(c) {
     document.getElementById('photoTag').value += c;
 };
+
+// Wait for the document to be ready
+$(document).ready(function() {
+    // Get the height of the top bar
+    var topBarHeight = $('.top-bar').outerHeight();
+
+    // Use ScrollTrigger to animate the navigation bar
+    gsap.to('.stix-mobile', {
+        y: -topBarHeight,
+        scrollTrigger: {
+            start: "top top",
+            end: "+=" + topBarHeight,
+            toggleActions: 'play none none reverse',
+            scrub: true,
+        }
+    });
+    gsap.to('.stix', {
+        y: -topBarHeight,
+        scrollTrigger: {
+            start: "top top",
+            end: "+=" + topBarHeight,
+            toggleActions: 'play none none reverse',
+            scrub: true,
+        }
+    });
+});
