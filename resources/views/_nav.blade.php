@@ -57,7 +57,7 @@
 <div style="height: 92.29px;"></div>
 
 <div class="d-none d-lg-block">
-    <nav class="navbar navbar-expand-lg bg-white font-syne fixed-top stix py-0" style="top: 43.6px; height: 108.29px;">
+    <nav class="navbar navbar-expand-lg bg-white font-syne fixed-top stix py-0" style="top: 43.6px; height: 108.29px; width: 100%;">
         <div class="container-fluid">
 {{--            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">--}}
 {{--                <span class="navbar-toggler-icon"></span>--}}
