@@ -134,6 +134,10 @@ $(document).ready(function() {
             pinSpacing: false, // Disable automatic spacing
             toggleActions: 'play none none reverse',
             scrub: true,
+            offsets: {
+                start: topBarHeight, // Add an offset for the start position
+                end: topBarHeight, // Add an offset for the end position
+            },
         }
     });
 });
