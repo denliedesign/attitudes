@@ -52,7 +52,7 @@
     </div>
 </div>
 
-{{--<div style="height: 92.29px;"></div>--}}
+<div style="height: 92.29px;"></div>
 
 <div class="d-none d-lg-block">
     <nav class="navbar navbar-expand-lg bg-white font-syne stix py-0" style="">
