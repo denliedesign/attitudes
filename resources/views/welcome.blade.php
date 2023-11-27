@@ -346,7 +346,7 @@
         </div>
         <div>
             <img src="/images-lava/find-joy-in-moving.png" alt="" class="img-fluid d-none d-lg-block" id="joy-image">
-            <img src="/images-lava/find-joy-in-moving.png" alt="" class="img-fluid d-block d-lg-none" id="joy-mobile">
+{{--            <img src="/images-lava/find-joy-in-moving.png" alt="" class="img-fluid d-block d-lg-none" id="joy-mobile">--}}
         </div>
     </div>
 
@@ -406,17 +406,23 @@
                 <div class="col-sm-1"></div>
             </div>
             <div class="mt-3">
-                <div class="text-center rounded p-3" style="font-size: 2em; border: 4px solid #AFD237;">
-                        <div>
-                            Students who attend dance regularly:
-                            <ul style="list-style-type: none;" class="pb-0 mb-0">
-                                <li>&middot; Earn higher GPAs</li>
-                                <li>&middot; Perform better in science, math, and writing</li>
-                                <li>&middot; Earn higher test scores on SATs</li>
-                                <li>&middot; Enroll in 4-year colleges and earn mostly As</li>
-                            </ul>
-                            <small style="font-size: 0.6em;"><em>Source: National Endowment for the Arts</em></small>
+                <div class="row text-center">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm">
+                        <div class="rounded" style="font-size: 1.3em; border: 4px solid #AFD237;">
+                            <div class="px-1">
+                                Students who attend dance regularly:
+                                <ul style="list-style-type: none;" class="pb-0 mb-0 px-0 mx-0">
+                                    <li><ion-icon name="heart"></ion-icon> Earn higher GPAs</li>
+                                    <li><ion-icon name="heart"></ion-icon> Perform better in science, math, & writing</li>
+                                    <li><ion-icon name="heart"></ion-icon> Earn higher test scores on SATs</li>
+                                    <li><ion-icon name="heart"></ion-icon> Enroll in 4-year colleges & earn mostly As</li>
+                                </ul>
+                                <small style="font-size: 0.6em;"><em>Source: National Endowment for the Arts</em></small>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-sm-3"></div>
                 </div>
             </div>
             <div>
