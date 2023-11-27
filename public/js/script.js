@@ -102,28 +102,41 @@ function AddPhotoTag(c) {
     document.getElementById('photoTag').value += c;
 };
 
-// Wait for the document to be ready
+// // Wait for the document to be ready
+// $(document).ready(function() {
+//     // Get the height of the top bar
+//     var topBarHeight = $('.top-bar').outerHeight();
+//
+//     gsap.to('.stix', {
+//         y: -topBarHeight,
+//         scrollTrigger: {
+//             start: "top top",
+//             end: "+=" + topBarHeight,
+//             toggleActions: 'play none none reverse',
+//             scrub: true,
+//         }
+//     });
+// });
+
 $(document).ready(function() {
-    // Get the height of the top bar
     var topBarHeight = $('.top-bar').outerHeight();
 
-    // Use ScrollTrigger to animate the navigation bar
-    gsap.to('.stix-mobile', {
-        y: -topBarHeight,
-        scrollTrigger: {
-            start: "top top",
-            end: "+=" + topBarHeight,
-            toggleActions: 'play none none reverse',
-            scrub: true,
-        }
-    });
+    // Set initial position for the navigation bar
+    gsap.set('.stix', { y: topBarHeight });
+
+    // Create scroll trigger
     gsap.to('.stix', {
-        y: -topBarHeight,
+        y: 0, // End position when scrolling
         scrollTrigger: {
+            trigger: "#top", // Use the top bar as the trigger
             start: "top top",
-            end: "+=" + topBarHeight,
+            pin: true, // Pin the navigation bar to the top
+            pinSpacing: false, // Disable automatic spacing
             toggleActions: 'play none none reverse',
             scrub: true,
         }
     });
 });
+
+
+
