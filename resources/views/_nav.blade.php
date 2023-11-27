@@ -1,6 +1,6 @@
 <div id="top" class="font-syne d-flex justify-content-center top-bar">
     <div class="py-2">
-        <ul class="nav" style="font-size: 0.85em;">
+        <ul class="nav" style="font-size: 0.8em;">
             <li class="nav-item mx-4">
                 <a href="https://app.jackrabbitclass.com/jr3.0/ParentPortal/Login?orgID=509319" target="_blank" class="text-muted text-decoration-none">Parent Login</a>
             </li>
@@ -52,7 +52,7 @@
     </div>
 </div>
 
-{{--<div style="height: 92.29px;"></div>--}}
+<div style="height: 92.29px;"></div>
 
 <div class="d-none d-lg-block">
     <nav class="navbar navbar-expand-lg bg-white font-syne stix py-0" style="">
