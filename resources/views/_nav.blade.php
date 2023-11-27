@@ -36,13 +36,13 @@
 <div class="d-block d-lg-none stix-mobile" style="position: fixed; width: 100%; z-index: 5;">
     <div class="accordion" id="accordionExample" style="width: 100%;">
         <div class="accordion-item" style="border: none !important;">
-            <h2 class="accordion-header d-flex justify-content-between" id="headingOne" style="width: 100%;">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <ion-icon name="menu-outline" style="font-size: 1.5em; border: 1px solid lightgray; color: #7F7F7F;" class="m-3 px-2 rounded"></ion-icon>
-                </button>
-                <div>
+            <h2 class="accordion-header d-flex justify-content-center" id="headingOne" style="width: 100%;">
+                <div class="mx-2">
                     <a class="d-lg-none" href="/"><img src="/images/logo-aim.png" alt="" style="max-width: 133px; height: auto; width: 100%;"></a>
                 </div>
+                <button class="mx-2 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <ion-icon name="menu-outline" style="font-size: 1.5em; border: 1px solid lightgray; color: #7F7F7F;" class="m-3 px-2 rounded"></ion-icon>
+                </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
