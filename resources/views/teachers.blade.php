@@ -31,8 +31,12 @@
                 @foreach($teachers as $teacher)
                 <div class="col-sm mt-3 text-white" style="height: 100%;">
                     @include('/teachers/admin')
-                    <div style="position: relative;">
-                        <img src="{{ asset('/storage/' . $teacher->teacherImage) }}" alt="staff member" class="img-fluid" style="max-height: 382.50px;">
+                    <div style="position: relative;" class="mt-3">
+                        @if($teacher->teacherImage)
+                            <img src="{{ asset('/storage/' . $teacher->teacherImage) }}" alt="staff member" class="img-fluid" style="max-height: 382.50px;">
+                            @else
+                            <img src="/images/staff-blank.jpg" alt="blank image" class="img-fluid" style="max-height: 382.50px;">
+                        @endif
                         <div id="triangle-bottomleft-staff"></div>
                         <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 0;">{{ $teacher->name }}</div>
                     </div>
