@@ -130,7 +130,7 @@
                     <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">VIEW SCHEDULE</div></a>
                     <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-pink-outline shadow mx-2">GET STARTED</div></a>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
                     <x-content tag="schedule-teens"/>
                 </div>
             </div>
@@ -140,7 +140,7 @@
                     <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">VIEW SCHEDULE</div></a>
                     <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-red-outline shadow mx-2">GET STARTED</div></a>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
                     <x-content tag="schedule-boys"/>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                     <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>
                     <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-green-outline shadow mx-2">GET STARTED</div></a>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
                     <x-content tag="schedule-adults"/>
                 </div>
             </div>
