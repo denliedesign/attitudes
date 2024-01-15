@@ -112,39 +112,39 @@
             <div class="font-staat text-white text-center" style="font-size: 100px;">classes</div>
             <div class="row">
                 <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/classes-1.jpg" alt="dancer posing" class="img-fluid">
-                    <a class="triangle-and-text" href="/schedule#class-1-6">
+                    <img src="/images/class-4-and-under.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
+                    <a class="triangle-and-text" href="/schedule#class-4-and-under">
                         <div id="triangle-bottomleft"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 6 & under</div>
+                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 4 & under</div>
                     </a>
                 </div>
                 <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/classes-2.jpg" alt="dancer posing" class="img-fluid">
-                    <a class="triangle-and-text" href="/schedule#class-7-12">
+                    <img src="/images/class-5-6.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
+                    <a class="triangle-and-text" href="/schedule#class-5-6">
                         <div id="triangle-bottomleft"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">7-12 years</div>
+                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">5-6 years</div>
                     </a>
                 </div>
                 {{--                <div class="col-sm my-2"></div>--}}
                 <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/classes-3.jpg" alt="dancer posing" class="img-fluid">
+                    <img src="/images/class-7-12.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
+                    <a class="triangle-and-text" href="/schedule#class-7-12">
+                        <div id="triangle-bottomleft"></div>
+                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">7-12</div>
+                    </a>
+                </div>
+                <div class="col-sm my-2" style="position: relative; z-index: 3;">
+                    <img src="/images/class-teen.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
                     <a class="triangle-and-text" href="/schedule#class-teens">
                         <div id="triangle-bottomleft"></div>
                         <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Teens</div>
                     </a>
                 </div>
                 <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/classes-4.jpg" alt="dancer posing" class="img-fluid">
+                    <img src="/images/class-boys.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
                     <a class="triangle-and-text" href="/schedule#class-boys">
                         <div id="triangle-bottomleft"></div>
                         <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">All Boys</div>
-                    </a>
-                </div>
-                <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/classes-5.jpg" alt="dancer posing" class="img-fluid">
-                    <a class="triangle-and-text" href="/schedule#class-adults">
-                        <div id="triangle-bottomleft"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Adults</div>
                     </a>
                 </div>
             </div>
