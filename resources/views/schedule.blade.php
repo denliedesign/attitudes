@@ -81,8 +81,8 @@
                         <div id="class-4-and-under" class="text-center font-syne">
                             <h2 class="mb-0" style="font-size: 2em;">Programs for Ages 4 & Under</h2>
                             <div class="my-3">
-                                <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>
-                                <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-green-outline shadow mx-2">GET STARTED</div></a>
+{{--                                <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>--}}
+                                <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">GET STARTED</div></a>
                             </div>
                             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
                                 <x-content tag="schedule"/>
@@ -117,8 +117,8 @@
             <div id="class-5-6" class="text-center font-syne">
                 <h2 class="mb-0" style="font-size: 2em;">Programs for 5-6 Years</h2>
                 <div class="my-3">
-                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">VIEW SCHEDULE</div></a>
-                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-blue-outline shadow mx-2">GET STARTED</div></a>
+{{--                    <a href="" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">VIEW SCHEDULE</div></a>--}}
+                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">GET STARTED</div></a>
                 </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
                     <x-content tag="schedule-5-6"/>
@@ -127,8 +127,8 @@
             <div id="class-7-12" class="text-center font-syne">
                 <h2 class="mb-0" style="font-size: 2em;">Programs for 7-12 Years</h2>
                 <div class="my-3">
-                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">VIEW SCHEDULE</div></a>
-                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-pink-outline shadow mx-2">GET STARTED</div></a>
+{{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">VIEW SCHEDULE</div></a>--}}
+                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">GET STARTED</div></a>
                 </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
                     <x-content tag="schedule-7-12"/>
@@ -137,8 +137,8 @@
             <div id="class-teens" class="text-center font-syne">
                 <h2 class="mb-0" style="font-size: 2em;">Programs for Teens</h2>
                 <div class="my-3">
-                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">VIEW SCHEDULE</div></a>
-                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-red-outline shadow mx-2">GET STARTED</div></a>
+{{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">VIEW SCHEDULE</div></a>--}}
+                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">GET STARTED</div></a>
                 </div>
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
                     <x-content tag="schedule-teens"/>
@@ -147,8 +147,8 @@
             <div id="class-boys" class="text-center font-syne">
                 <h2 class="mb-0" style="font-size: 2em;">Programs for Boys</h2>
                 <div class="my-3">
-                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>
-                    <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family-outline rounded btn-green-outline shadow mx-2">GET STARTED</div></a>
+{{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>--}}
+                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">GET STARTED</div></a>
                 </div>
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
                     <x-content tag="schedule-boys"/>
@@ -156,8 +156,11 @@
             </div>
 
 {{--                        <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=383292&Session=2023-2024&hidecols=Gender,Ages,Session,Openings&sort=Class"></script>--}}
-                        <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319"></script>
-                    </div>
+
+            <div id="get-started">
+                <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319"></script>
+            </div>
+        </div>
                 </div>
         <!-- END KAPA -->
 
