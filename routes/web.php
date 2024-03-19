@@ -41,6 +41,12 @@ Route::get('/events', function () {
 Route::get('/parent-portal', function () {
     return view('/parent-portal');
 });
+Route::get('/policies', function () {
+    return view('/policies');
+});
+Route::get('/contact-us', function () {
+    return view('/contact-us');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

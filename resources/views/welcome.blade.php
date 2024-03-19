@@ -2,6 +2,27 @@
 @section('content')
     @include('_trial-modal')
 
+    <div>
+        <div id="side-trial" class="offcanvas offcanvas-end shadow" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Try a No Risk Trial Class</h5>
+                <button type="button" class="btn-close" onclick="toggleOffcanvas()" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form action="javascript:void(0);" method="POST" class="text-dark" onsubmit="return false;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-auto mx-0">
+                            <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">
+                        </div>
+                        <div class="col-auto mx-0">
+                            <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <div style="position: relative;" class="d-none d-lg-block">
         <div style="position:absolute; bottom: 40%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
             <h2 id="great-txt">
@@ -13,7 +34,7 @@
                 <div class="row">
                     <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow btn btn-lg btn-family btn-green">Schedule A Trial</div></a></div>
                     <div class="col"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-blue">Find Your Class</div></a></div>
-                    <div class="col"><a href="#footer"><div class="shadow btn btn-lg btn-family btn-pink">Contact Us</div></a></div>
+                    <div class="col"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-pink">Contact Us</div></a></div>
                 </div>
             </h2>
         </div>
@@ -484,7 +505,7 @@
                     <div class="col-sm">
                         <div class="next-step mx-1 shadow py-5">
                             <p class="txt-pink">Still Have Questions?</p>
-                            <a href="#footer" class="">
+                            <a href="/contact-us" class="">
                                 <div class="shadow btn btn-lg btn-pink btn-family">&#10097; Contact Us!</div>
                             </a>
                         </div>
@@ -527,7 +548,7 @@
                     <div class="col-sm my-3">
                         <div class="next-step mx-1 shadow py-5">
                             <p class="txt-pink">Still Have Questions?</p>
-                            <a href="#footer" class="">
+                            <a href="/contact-us" class="">
                                 <div class="shadow btn btn-lg btn-pink btn-family">&#10097; Contact Us!</div>
                             </a>
                         </div>
@@ -613,5 +634,29 @@
             </div>
         </div>
     </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
+                // After 6 seconds, add the 'show' class to display the module
+                document.getElementById('side-trial').classList.toggle('show');
+            }, 6000); // 6000 milliseconds = 6 seconds
+        });
+
+        function toggleOffcanvas() {
+            var offcanvasElement = document.getElementById('side-trial');
+            offcanvasElement.classList.toggle('show');
+
+            // If you're using Bootstrap 5 or newer, you might also need to manually adjust the visibility
+            // and the aria-hidden attribute for complete accessibility support.
+            if(offcanvasElement.classList.contains('show')) {
+                offcanvasElement.style.visibility = 'visible';
+                offcanvasElement.setAttribute('aria-hidden', 'false');
+            } else {
+                offcanvasElement.style.visibility = 'hidden';
+                offcanvasElement.setAttribute('aria-hidden', 'true');
+            }
+        }
+    </script>
 
 @endsection

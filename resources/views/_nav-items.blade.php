@@ -4,7 +4,7 @@
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/classes">Classes</a></li>
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/events">Events</a></li>
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/parent-portal">Parents</a></li>
-<li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="#footer">Contact</a></li>
+<li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/contact-us">Contact</a></li>
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/aboutus">About</a></li>
 
 <li class="nav-item mx-2">

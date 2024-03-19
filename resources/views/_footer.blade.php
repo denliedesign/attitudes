@@ -98,6 +98,9 @@
                                 <li class="list-group-item px-0 border-0">
                                     <a class="text-decoration-none text-dark" href="https://app.jackrabbitclass.com/regv2.asp?id=509319" target="_blank">Register</a>
                                 </li>
+                                    <li class="list-group-item px-0 border-0">
+                                        <a class="text-decoration-none text-dark" href="/policies">Policies</a>
+                                    </li>
                             </ul>
                         </div>
                         <div class="col-sm">
