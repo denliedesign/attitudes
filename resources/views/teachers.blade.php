@@ -25,35 +25,30 @@
     @endcan
     <!-- END ADMIN CONTROLS -->
 
-    <div class="bg-red-solid py-5" style="position: relative; height: 100%;">
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
-                @foreach($teachers as $teacher)
-                <div class="col-sm mt-3 text-white" style="height: 100%;">
-                    @include('/teachers/admin')
-                    <div style="position: relative;" class="mt-3">
-                        @if($teacher->teacherImage)
-                            <img src="{{ asset('/storage/' . $teacher->teacherImage) }}" alt="staff member" class="img-fluid" style="max-height: 382.50px;">
-                            @else
-                            <img src="/images/staff-blank.jpg" alt="blank image" class="img-fluid" style="max-height: 382.50px;">
-                        @endif
-                        <div id="triangle-bottomleft-staff"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 0;">{{ $teacher->name }}</div>
-                    </div>
-                    <p class="font-syne my-0 py-0">
-                        <span class="txt-yellow" style="font-size: 1.4em;">{{ $teacher->title }}</span><br>
-                        {!! $teacher->bio !!}
-                    </p>
+            @foreach($teachers as $teacher)
+            <div class="row my-5">
+                @include('/teachers/admin')
+                <div class="col-sm-3 d-flex align-items-center justify-content-center">
+                    @if($teacher->teacherImage)
+                        <img src="{{ asset('/storage/' . $teacher->teacherImage) }}" alt="staff member" class="img-fluid shadow rounded" style="filter: grayscale(100%);">
+                    @else
+                        <img src="/images/staff-blank.jpg" alt="blank image" class="img-fluid shadow rounded" style="filter: grayscale(100%);">
+                    @endif
                 </div>
-                @endforeach
+                <div class="col-sm-9">
+                    <div class="rounded border">
+                        <div class="bg-red text-white ps-3">
+                            <span class="font-staat" style="font-size: 2em;">{{ $teacher->name }}</span> &nbsp; <span>{{ $teacher->title }}</span>
+                        </div>
+                        <div>
+                            <p class="px-3 py-2">
+                                {!! $teacher->bio !!}                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            @endforeach
         </div>
-        <div style="height: 300px;"></div>
-        <div class="custom-shape-divider-bottom-1648524823" style="transform: translateY(1px);">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
-            </svg>
-        </div>
-    </div>
 
 @endsection
