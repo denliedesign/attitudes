@@ -128,53 +128,61 @@
     </div>
 
 
-    <div class="bg-red-solid py-5" style="position: relative; height: auto;">
+    <div class="bg-red mt-5 py-5" style="position: relative;">
         <div class="container">
             <div class="font-staat text-white text-center" style="font-size: 100px;">classes</div>
-            <div class="row">
-                <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/class-4-and-under.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
-                    <a class="triangle-and-text" href="/schedule#class-4-and-under">
-                        <div id="triangle-bottomleft"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 4 & under</div>
-                    </a>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-5">
+                <div class="col-sm my-2">
+                    <div class="rounded" style="height: 325px; overflow: hidden;">
+                        <img src="/images/class-4-and-under.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(2.0);">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="text-decoration-none text-white text-center" href="/schedule#class-4-and-under">
+                            <div class="font-staat m-2 btn btn-lg shadow brand-green text-white" style="font-size: 1.5em;">Ages 4 & under</div>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/class-5-6.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
-                    <a class="triangle-and-text" href="/schedule#class-5-6">
-                        <div id="triangle-bottomleft"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">5-6 years</div>
-                    </a>
-                </div>
-                {{--                <div class="col-sm my-2"></div>--}}
-                <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/class-7-12.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
-                    <a class="triangle-and-text" href="/schedule#class-7-12">
-                        <div id="triangle-bottomleft"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">7-12</div>
-                    </a>
-                </div>
-                <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/class-teen.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
-                    <a class="triangle-and-text" href="/schedule#class-teens">
-                        <div id="triangle-bottomleft"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Teens</div>
-                    </a>
-                </div>
-                <div class="col-sm my-2" style="position: relative; z-index: 3;">
-                    <img src="/images/class-boys.jpg" alt="dancer posing" class="img-fluid" style="object-fit: cover; height: 100%; width: auto;">
-                    <a class="triangle-and-text" href="/schedule#class-boys">
-                        <div id="triangle-bottomleft"></div>
-                        <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">All Boys</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div style="height: 225px;"></div>
-        <div class="custom-shape-divider-bottom-1648524823" style="transform: translateY(1px);">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
-            </svg>
+               <div class="col-sm my-2">
+                   <div class="rounded" style="height: 325px; overflow: hidden;">
+                       <img src="/images/class-5-6.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(2.0);">
+                   </div>
+                   <div class="d-flex justify-content-center">
+                       <a class="text-decoration-none text-white text-center" href="/schedule#class-5-6">
+                           <div class="font-staat m-2 btn btn-lg shadow brand-blue text-white" style="font-size: 1.5em;">Ages 5-6</div>
+                       </a>
+                   </div>
+               </div>
+               <div class="col-sm my-2">
+                   <div class="rounded" style="height: 325px; overflow: hidden;">
+                       <img src="/images/class-7-12.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(2.0);">
+                   </div>
+                   <div class="d-flex justify-content-center">
+                       <a class="text-decoration-none text-white text-center" href="/schedule#class-7-12">
+                           <div class="font-staat m-2 btn btn-lg shadow brand-pink text-white" style="font-size: 1.5em;">Ages 7-12</div>
+                       </a>
+                   </div>
+               </div>
+               <div class="col-sm my-2">
+                   <div class="rounded" style="height: 325px; overflow: hidden;">
+                       <img src="/images/class-teen.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(2.0);">
+                   </div>
+                   <div class="d-flex justify-content-center">
+                       <a class="text-decoration-none text-white text-center" href="/schedule#class-teens">
+                           <div class="font-staat m-2 btn btn-lg shadow brand-red text-white" style="font-size: 1.5em;">Teens</div>
+                       </a>
+                   </div>
+               </div>
+               <div class="col-sm my-2">
+                   <div class="rounded" style="height: 325px; overflow: hidden;">
+                       <img src="/images/class-boys.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(1.25);">
+                   </div>
+                   <div class="d-flex justify-content-center">
+                       <a class="text-decoration-none text-white text-center" href="/schedule#class-boys">
+                           <div class="font-staat m-2 btn btn-lg shadow brand-green text-white" style="font-size: 1.5em;">All Boys</div>
+                       </a>
+                   </div>
+               </div>
+    </div>
         </div>
     </div>
 

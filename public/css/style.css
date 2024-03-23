@@ -30,12 +30,20 @@ red
 }
 
 .txt-green { color: #AFD237; }
+.brand-green { background: #AFD237; }
+.brand-green:hover { background: #AFD237 !important; filter: brightness(110%); }
 .txt-blue { color: #5AB2E4; }
+.brand-blue { background: #5AB2E4; }
+.brand-blue:hover { background: #5AB2E4 !important; filter: brightness(110%); }
 .txt-pink { color: #E2459C; }
+.brand-pink { background: #E2459C; }
+.brand-pink:hover { background: #E2459C !important; filter: brightness(110%); }
 .btn-green { background: rgba(175, 210, 55, 1) !important; }
 .btn-blue { background: rgba(90, 178, 228, 1) !important; }
 .btn-pink { background: rgba(226, 69, 156, 1) !important; }
 .btn-red { background: rgba(238, 27, 77, 1) !important; }
+.brand-red { background: rgba(238, 27, 77, 1) !important; }
+.brand-red:hover { background: rgba(238, 27, 77, 1) !important; filter: brightness(110%); }
 .btn-green:hover, .btn-green-outline:hover { background: rgba(175, 210, 55, 0.7) !important; }
 .btn-blue:hover, .btn-blue-outline:hover { background: rgba(90, 178, 228, 0.7) !important; }
 .btn-pink:hover, .btn-pink-outline:hover { background: rgba(226, 69, 156, 0.7) !important; }
