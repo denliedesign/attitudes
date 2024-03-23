@@ -37,7 +37,7 @@
                     @endif
                 </div>
                 <div class="col-sm-9 d-flex align-items-center">
-                    <div class="rounded border">
+                    <div class="rounded border" style="width: 100%;">
                         <div class="bg-red text-white ps-3">
                             <span class="font-staat" style="font-size: 2em;">{{ $teacher->name }}</span> &nbsp; <span>{{ $teacher->title }}</span>
                         </div>
