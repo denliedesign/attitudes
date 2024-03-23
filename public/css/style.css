@@ -618,7 +618,70 @@ body {
 
 .banner {
     height: calc(100% - 1px);
-    background-image: url(/images-lava/banner-smile.jpg);
+    background-image: url(/images/header-aim.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-schedule {
+    height: calc(100% - 1px);
+    background-image: url(/images/banner-schedule.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-about {
+    height: calc(100% - 1px);
+    background-image: url(/images/banner-about.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-classes {
+    height: calc(100% - 1px);
+    background-image: url(/images/banner-classes.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-competition {
+    height: calc(100% - 1px);
+    background-image: url(/images/banner-competition.PNG);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-contact {
+    height: calc(100% - 1px);
+    background-image: url(/images/banner-contact.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-parent {
+    height: calc(100% - 1px);
+    background-image: url(/images/banner-parent.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-prek {
+    height: calc(100% - 1px);
+    background-image: url(/images/banner-prek.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

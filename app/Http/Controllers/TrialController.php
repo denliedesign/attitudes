@@ -37,7 +37,7 @@ class TrialController extends Controller
             'birthdate' => 'required',
         ]);
 
-        Mail::to('customdenlie@gmail.com')->send(new TrialMail($trial));
+        Mail::to('Attitudesmotion@aol.com')->send(new TrialMail($trial));
 
         return redirect('/')->with('message', 'Thanks for your interest. We\'ll be in touch.');
     }
