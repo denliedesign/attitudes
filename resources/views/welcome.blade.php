@@ -34,7 +34,8 @@
                 <div class="row">
                     <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow btn btn-lg btn-family btn-green">Schedule A Trial</div></a></div>
                     <div class="col"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-blue">Find Your Class</div></a></div>
-                    <div class="col"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-pink">Contact Us</div></a></div>
+                    <div class="col"><a href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow btn btn-lg btn-family btn-pink">Summer Schedule</div></a></div>
+                    <div class="col"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-red">Contact Us</div></a></div>
                 </div>
             </h2>
         </div>
@@ -49,8 +50,13 @@
                 <br>
                 <small class="txt-crimson font-syne">Your child will fall in love with dance with our classes for all ages and levels!</small>
                 <br>
-            <div class="d-flex justify-content-center">
-                <a href="/schedule"><div class="shadow btn btn-lg btn-danger mb-2">Find Your Class</div></a>
+            <div style="width: 100%;">
+                <div>
+                    <a class="d-flex justify-content-center text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow m-3 btn btn-lg btn-family btn-green">Schedule A Trial</div></a>
+                    <a class="d-flex justify-content-center text-decoration-none" href="/schedule"><div class="shadow m-3 btn btn-lg btn-family btn-blue">Find Your Class</div></a>
+                    <a class="d-flex justify-content-center text-decoration-none" href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow m-3 btn btn-lg btn-family btn-pink">Summer Schedule</div></a>
+                    <a class="d-flex justify-content-center text-decoration-none" href="/contact-us"><div class="shadow m-3 btn btn-lg btn-family btn-red">Contact Us</div></a>
+                </div>
             </div>
             </p>
         </div>
