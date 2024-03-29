@@ -714,6 +714,12 @@ body {
     background-size: cover;
 }
 
+@media only screen and (max-width: 768px) {
+    .banner, .banner-about, .banner-classes, .banner-competition, .banner-contact, .banner-events, .banner-prek, .banner-schedule, .banner-teacher, .banner-parent {
+        background-attachment: scroll; /* Change to scroll for mobile */
+    }
+}
+
 .facebook-button {
     background: #0966FF;
 }
