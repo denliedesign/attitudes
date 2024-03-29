@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Dance Competition Teams | Old Bethpage, NY')
 @section('content')
 
     <div class="banner-wrap d-block" style="position: relative;">

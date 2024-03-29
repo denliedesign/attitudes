@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Contact | Attitudes in Motion')
 @section('content')
 
     <div class="banner-wrap d-block" style="position: relative;">

@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Dance Schedule | Old Bethpage, NY')
 @section('content')
     @include('_trial-modal')
 
