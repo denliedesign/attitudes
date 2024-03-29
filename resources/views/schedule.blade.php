@@ -59,7 +59,7 @@
 
             <!-- START KAPA -->
                         <div class="d-flex justify-content-center font-syne">
-                            <ul class="nav pt-2 pb-5">
+                            <ul class="nav pt-2 pb-5 d-flex justify-content-center">
                                 <li class="nav-item">
                                     <a class="nav-link m-1 rounded shadow btn-green btn-family" href="#class-4-and-under">Ages 4 & Under</a>
                                 </li>

@@ -12,7 +12,8 @@
 
     <div class="bg-white">
         <div class="container pb-5 pt-3">
-            <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">Competition Teams</h3>
+            <h3 class="font-staat text-center d-none d-md-block" style="font-size: 100px; line-height: 0.9em;">Competition Teams</h3>
+            <h3 class="font-staat text-center d-block d-md-none" style="font-size: 80px; line-height: 0.9em;">Competition Teams</h3>
             <x-content tag="competition"/>
 {{--            <h2 class="text-center">Regional Competition Teams</h2>--}}
 {{--            <p class="text-center">--}}
