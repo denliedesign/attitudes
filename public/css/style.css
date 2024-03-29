@@ -625,8 +625,26 @@ body {
 }
 
 .banner {
+     height: calc(100% - 1px);
+     background-image: url(/images/header-aim.jpg);
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.banner-teacher {
+     height: calc(100% - 1px);
+     background-image: url(/images/banner-teacher-2.JPG);
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.banner-events {
     height: calc(100% - 1px);
-    background-image: url(/images/header-aim.jpg);
+    background-image: url(/images/banner-events-2b.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -637,14 +655,14 @@ body {
     height: calc(100% - 1px);
     background-image: url(/images/banner-schedule.jpg);
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: 50% 65%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .banner-about {
     height: calc(100% - 1px);
-    background-image: url(/images/banner-about.jpg);
+    background-image: url(/images/aboutus-2.JPG);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -662,16 +680,16 @@ body {
 
 .banner-competition {
     height: calc(100% - 1px);
-    background-image: url(/images/banner-competition.PNG);
+    background-image: url(/images/banner-comp-2.jpg);
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: 50% 65%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .banner-contact {
     height: calc(100% - 1px);
-    background-image: url(/images/banner-contact.jpg);
+    background-image: url(/images/banner-contact-2.JPG);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

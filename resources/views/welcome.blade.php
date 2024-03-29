@@ -32,10 +32,10 @@
                 <span style="font-size: 0.5em; font-weight: normal; text-shadow: 1px 2px 4px black;" class="txt-crimson">Your child will fall in love with dance with our classes for all ages and levels!</span>
                 <br>
                 <div class="row">
-                    <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow btn btn-lg btn-family btn-green">Schedule A Trial</div></a></div>
-                    <div class="col"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-blue">Find Your Class</div></a></div>
-                    <div class="col"><a href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow btn btn-lg btn-family btn-pink">Summer Schedule</div></a></div>
-                    <div class="col"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-red">Contact Us</div></a></div>
+                    <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow btn btn-family btn-green">Schedule A Trial</div></a></div>
+                    <div class="col"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Find Your Class</div></a></div>
+                    <div class="col"><a href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow btn btn-family btn-pink">Summer Schedule</div></a></div>
+                    <div class="col"><a href="/contact-us"><div class="shadow btn btn-family btn-red">Contact Us</div></a></div>
                 </div>
             </h2>
         </div>
