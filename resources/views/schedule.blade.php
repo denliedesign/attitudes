@@ -44,7 +44,7 @@
 {{--        </div>--}}
 {{--    </div>--}}
 
-    <div class="banner-wrap d-none d-md-block" style="position: relative;">
+    <div class="banner-wrap d-block" style="position: relative;">
         <div class="banner-schedule"></div>
         <div class="custom-shape-divider-bottom-1663856745">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
