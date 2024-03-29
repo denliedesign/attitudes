@@ -13,12 +13,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta property="og:title" content="Dance Classes | Onalaska, La Crosse, WI">
-        <meta property="og:description" content="More than just great dancing! At MDU, we offer one of the most complete dance instruction programs in the Midwest and work with students of all ages and abilities.">
-        <meta property="og:image" content="https://mistysdance.com/images/mdu-home.jpg">
-        <meta property="og:url" content="https://mistysdance.com/index.php">
+        <meta property="og:title" content="Dance Classes | Old Bethpage, NY">
+        <meta property="og:description" content="More than just great dancing! At AIM, we offer one of the most complete dance instruction programs in New York and work with students of all ages and abilities.">
+        <meta property="og:image" content="https://attitudesmotion.com/images/header-aim.jpg">
+        <meta property="og:url" content="https://attitudesmotion.com">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="description" content="@yield('description', 'From your child’s first class to their graduation performance. MDU has a class for everyone!')">
+        <meta name="description" content="@yield('description', 'From your child’s first class to their graduation performance. AIM has a class for everyone!')">
 
         <!-- Meta Pixel Code -->
         <script>
@@ -38,7 +38,7 @@
             /></noscript>
         <!-- End Meta Pixel Code -->
 
-        <title>@yield('title', 'attitudes')</title>
+        <title>@yield('title', 'Attitudes in Motion | Dance Old Bethpage, NY')</title>
 
         <!-- Fonts -->
         <style>
