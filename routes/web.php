@@ -47,6 +47,9 @@ Route::get('/policies', function () {
 Route::get('/contact-us', function () {
     return view('/contact-us');
 });
+Route::get('/sitemap', function () {
+    return view('/sitemap');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

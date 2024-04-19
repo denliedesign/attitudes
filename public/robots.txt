@@ -15,3 +15,4 @@ Disallow: /zumba
 Disallow: /teen
 Disallow: /the-studio
 Disallow: /studio
+Disallow: /try-it-week
