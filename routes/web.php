@@ -50,6 +50,12 @@ Route::get('/contact-us', function () {
 Route::get('/sitemap', function () {
     return view('/sitemap');
 });
+Route::get('/dance-bethpage', function () {
+    return view('/dance-bethpage');
+});
+Route::get('/dance-plainview', function () {
+    return view('/dance-plainview');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

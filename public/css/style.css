@@ -714,6 +714,24 @@ body {
     background-size: cover;
 }
 
+.banner-bethpage {
+    height: calc(100% - 1px);
+    background-image: url(/images/dance-bethpage.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-plainview {
+    height: calc(100% - 1px);
+    background-image: url(/images/dance-plainview.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media only screen and (max-width: 768px) {
     .banner, .banner-about, .banner-classes, .banner-competition, .banner-contact, .banner-events, .banner-prek, .banner-schedule, .banner-teacher, .banner-parent {
         background-attachment: scroll; /* Change to scroll for mobile */
