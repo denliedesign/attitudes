@@ -18,6 +18,10 @@
             <p class="text-center font-syne" style="font-size: 22px;">
                 In Bethpage, dance is more than just an activity; it's a vital part of the community that brings people together. Our dance studios in Bethpage offer a range of dance classes that cater to all ages and skill levels, from beginners to advanced dancers. Each class, whether it's ballet, hip hop, or contemporary, is not just about learning steps and techniques; it's about building confidence, fostering social connections, and enhancing cultural appreciation. Bethpage dance lessons are an opportunity for personal growth and community engagement, making every dance studio in Bethpage a hub for personal and communal development.
             </p>
+            <div class="d-flex justify-content-center font-syne">
+                <small><a class="text-muted text-decoration-none" href="/tumbling-classes-bethpage">Tumbling Classes Bethpage</a></small>
+                &nbsp;
+            </div>
         </div>
     </div>
 

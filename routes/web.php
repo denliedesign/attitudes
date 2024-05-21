@@ -56,6 +56,9 @@ Route::get('/dance-bethpage', function () {
 Route::get('/dance-plainview', function () {
     return view('/dance-plainview');
 });
+Route::get('/tumbling-classes-bethpage', function () {
+    return view('/tumbling-classes-bethpage');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
