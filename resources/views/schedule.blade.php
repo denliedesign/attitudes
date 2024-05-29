@@ -56,8 +56,9 @@
 
     <div class="bg-white">
         <div class="container pb-5 pt-3">
-            <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">Schedule</h3>
-
+            <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">Try It Week</h3>
+            <p class="text-center font-syne fw-bold" style="font-size: 20px;">Try something new & explore different dance styles. 6/10-6-15</p>
+            <p class="text-center font-syne text-muted">Active Students: FREE! | New Students: Unlimited Classes $25</p>
             <!-- START KAPA -->
                         <div class="d-flex justify-content-center font-syne">
                             <ul class="nav pt-2 pb-5 d-flex justify-content-center">
@@ -85,9 +86,11 @@
 {{--                                <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>--}}
                                 <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">GET STARTED</div></a>
                             </div>
-                            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
-                                <x-content tag="schedule"/>
-                            </div>
+                            <x-display graphic="ages-1.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%203-4%7CAges%201-2.5&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
+{{--                            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
+{{--                                <x-content tag="schedule"/>--}}
+{{--                            </div>--}}
+
 {{--                            <div class="row">--}}
 {{--                                <div class="col-sm my-1">--}}
 {{--                                    <h3 class="text-uppercase mb-0 font-staat">Move with Me</h3>--}}
@@ -121,9 +124,10 @@
 {{--                    <a href="" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">VIEW SCHEDULE</div></a>--}}
                     <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">GET STARTED</div></a>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
-                    <x-content tag="schedule-5-6"/>
-                </div>
+                <x-display graphic="ages-2.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%205-6&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
+                {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
+{{--                    <x-content tag="schedule-5-6"/>--}}
+{{--                </div>--}}
             </div>
             <div id="class-7-12" class="font-syne mt-5">
                 <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Programs for 7-12 Years</h2>
@@ -131,9 +135,12 @@
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">VIEW SCHEDULE</div></a>--}}
                     <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">GET STARTED</div></a>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
-                    <x-content tag="schedule-7-12"/>
-                </div>
+                <x-display graphic="ages-3.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%207-9&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
+                <x-display graphic="" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Tweens%2010-12%7CAges%2010%20and%20up&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
+
+                {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
+{{--                    <x-content tag="schedule-7-12"/>--}}
+{{--                </div>--}}
             </div>
             <div id="class-teens" class="font-syne mt-5">
                 <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Programs for Teens</h2>
@@ -141,9 +148,10 @@
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">VIEW SCHEDULE</div></a>--}}
                     <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">GET STARTED</div></a>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
-                    <x-content tag="schedule-teens"/>
-                </div>
+                <x-display graphic="ages-4.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%2014-17%7CAges%2010%20and%20up%7CAges%2014%20and%20up&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
+{{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
+{{--                    <x-content tag="schedule-teens"/>--}}
+{{--                </div>--}}
             </div>
             <div id="class-boys" class="font-syne mt-5">
                 <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Programs for Boys</h2>
@@ -158,9 +166,9 @@
 
 {{--                        <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=383292&Session=2023-2024&hidecols=Gender,Ages,Session,Openings&sort=Class"></script>--}}
 
-            <div id="get-started">
-                <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&sort=Days%20asc,StartTime,Instructors&hidecols=Tuition"></script>
-            </div>
+{{--            <div id="get-started">--}}
+{{--                <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&sort=Days%20asc,StartTime,Instructors&hidecols=Tuition"></script>--}}
+{{--            </div>--}}
         </div>
                 </div>
         <!-- END KAPA -->
@@ -172,6 +180,11 @@
             padding: 4px 8px;
             border-radius: 5px;
             text-decoration: none;
+        }
+        tr:nth-of-type(even) {
+            background: white !important;
+            border-top: 1px solid gray !important;
+            border-bottom: 1px solid gray !important;
         }
     </style>
 
