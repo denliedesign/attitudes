@@ -34,7 +34,7 @@
                 <div class="row">
 {{--                    <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow btn btn-family btn-green">Schedule A Trial</div></a></div>--}}
                     <div class="col"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Try it Week</div></a></div>
-                    <div class="col"><a href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow btn btn-family btn-pink">Summer Schedule</div></a></div>
+                    <div class="col"><a href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow btn btn-family btn-green">Summer Schedule</div></a></div>
                     <div class="col"><a href="/contact-us"><div class="shadow btn btn-family btn-red">Contact Us</div></a></div>
                 </div>
             </h2>
@@ -53,9 +53,12 @@
             <div style="width: 100%;">
                 <div>
 {{--                    <a class="d-flex justify-content-center text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow m-3 btn btn-lg btn-family btn-green">Schedule A Trial</div></a>--}}
-                    <a class="d-flex justify-content-center text-decoration-none" href="/schedule"><div class="shadow m-3 btn btn-lg btn-family btn-blue">Find Your Class</div></a>
-                    <a class="d-flex justify-content-center text-decoration-none" href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow m-3 btn btn-lg btn-family btn-pink">Summer Schedule</div></a>
-                    <a class="d-flex justify-content-center text-decoration-none" href="/contact-us"><div class="shadow m-3 btn btn-lg btn-family btn-red">Contact Us</div></a>
+{{--                    <a class="d-flex justify-content-center text-decoration-none" href="/schedule"><div class="shadow m-3 btn btn-lg btn-family btn-blue">Find Your Class</div></a>--}}
+{{--                    <a class="d-flex justify-content-center text-decoration-none" href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow m-3 btn btn-lg btn-family btn-pink">Summer Schedule</div></a>--}}
+{{--                    <a class="d-flex justify-content-center text-decoration-none" href="/contact-us"><div class="shadow m-3 btn btn-lg btn-family btn-red">Contact Us</div></a>--}}
+                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Try it Week</div></a></div>
+                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow btn btn-family btn-green">Summer Schedule</div></a></div>
+                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/contact-us"><div class="shadow btn btn-family btn-red">Contact Us</div></a></div>
                 </div>
             </div>
             </p>

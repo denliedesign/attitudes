@@ -58,7 +58,7 @@
         <div class="container pb-5 pt-3">
             <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">Try It Week</h3>
             <p class="text-center font-syne fw-bold" style="font-size: 20px;">Try something new & explore different dance styles. 6/10-6-15</p>
-            <p class="text-center font-syne text-muted">Active Students: FREE! | New Students: Unlimited Classes $25</p>
+            <p class="text-center font-syne text-muted">Active Students: FREE!<br>New Students: Unlimited Classes $25</p>
             <!-- START KAPA -->
                         <div class="d-flex justify-content-center font-syne">
                             <ul class="nav pt-2 pb-5 d-flex justify-content-center">
@@ -74,9 +74,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link m-1 rounded shadow btn-red btn-family" href="#class-teens">Teens</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link m-1 rounded shadow btn-green btn-family" href="#class-boys">All Boys</a>
-                                </li>
+{{--                                <li class="nav-item">--}}
+{{--                                    <a class="nav-link m-1 rounded shadow btn-green btn-family" href="#class-boys">All Boys</a>--}}
+{{--                                </li>--}}
                             </ul>
                         </div>
 
@@ -84,7 +84,7 @@
                             <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Programs for Ages 4 & Under</h2>
                             <div class="mb-4 d-flex justify-content-center">
 {{--                                <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>--}}
-                                <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">GET STARTED</div></a>
+{{--                                <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">GET STARTED</div></a>--}}
                             </div>
                             <x-display graphic="ages-1.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%203-4%7CAges%201-2.5&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
 {{--                            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
@@ -122,7 +122,7 @@
                 <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Programs for 5-6 Years</h2>
                 <div class="mb-4 d-flex justify-content-center">
 {{--                    <a href="" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">VIEW SCHEDULE</div></a>--}}
-                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">GET STARTED</div></a>
+{{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">GET STARTED</div></a>--}}
                 </div>
                 <x-display graphic="ages-2.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%205-6&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
                 {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
@@ -133,7 +133,7 @@
                 <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Programs for 7-12 Years</h2>
                 <div class="mb-4 d-flex justify-content-center">
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">VIEW SCHEDULE</div></a>--}}
-                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">GET STARTED</div></a>
+{{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">GET STARTED</div></a>--}}
                 </div>
                 <x-display graphic="ages-3.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%207-9&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
                 <x-display graphic="" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Tweens%2010-12%7CAges%2010%20and%20up&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
@@ -146,23 +146,23 @@
                 <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Programs for Teens</h2>
                 <div class="mb-4 d-flex justify-content-center">
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">VIEW SCHEDULE</div></a>--}}
-                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">GET STARTED</div></a>
+{{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">GET STARTED</div></a>--}}
                 </div>
                 <x-display graphic="ages-4.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%2014-17%7CAges%2010%20and%20up%7CAges%2014%20and%20up&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
 {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
 {{--                    <x-content tag="schedule-teens"/>--}}
 {{--                </div>--}}
             </div>
-            <div id="class-boys" class="font-syne mt-5">
-                <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Programs for Boys</h2>
-                <div class="mb-4 d-flex justify-content-center">
+{{--            <div id="class-boys" class="font-syne mt-5">--}}
+{{--                <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Programs for Boys</h2>--}}
+{{--                <div class="mb-4 d-flex justify-content-center">--}}
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>--}}
-                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">GET STARTED</div></a>
-                </div>
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
-                    <x-content tag="schedule-boys"/>
-                </div>
-            </div>
+{{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">GET STARTED</div></a>--}}
+{{--                </div>--}}
+{{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
+{{--                    <x-content tag="schedule-boys"/>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
 {{--                        <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=383292&Session=2023-2024&hidecols=Gender,Ages,Session,Openings&sort=Class"></script>--}}
 

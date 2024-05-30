@@ -58,10 +58,10 @@
     <nav class="navbar navbar-expand-lg bg-white font-syne stix py-0" style="">
         <div class="container-fluid">
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" style="height: 108.29px">
-                <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+                <ul class="navbar-nav mb-2 mb-lg-0 align-items-center" style="font-size: 14px;">
                     <li class="d-none d-lg-block nav-item">
                         <a class="nav-link" href="/">
-                            <img src="/images/logo-aim.png" alt="" style="max-width: 133px;">
+                            <img src="/images/logo-aim.png" alt="" style="max-width: 125px;">
                         </a>
                     </li>
                     @include('_nav-items')

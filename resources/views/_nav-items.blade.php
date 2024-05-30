@@ -7,7 +7,7 @@
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/contact-us">Contact</a></li>
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/aboutus">About</a></li>
 
-<li class="nav-item mx-2">
+<li class="nav-item mx-1">
     <a href="/schedule" class="nav-link">
         <div class="btn btn-danger shadow">Find Your Class</div>
     </a>
