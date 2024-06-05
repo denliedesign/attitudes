@@ -1,5 +1,16 @@
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/teachers">Teachers</a></li>
-<li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/schedule">Try it Week 6/10-6/15</a></li>
+
+<li class="nav-item mx-1 text-uppercase dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Schedule
+    </a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="/schedule">Try it Week 6/10-6/15</a></li>
+        <li><a class="dropdown-item" href="/summer">Summer</a></li>
+    </ul>
+</li>
+
+{{--<li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/schedule">Try it Week 6/10-6/15</a></li>--}}
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/competition-team">Competition</a></li>
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/classes">Classes</a></li>
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/events">Events</a></li>

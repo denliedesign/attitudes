@@ -20,6 +20,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/summer', function () {
+    return view('/summer');
+});
 Route::get('/teachers', function () {
     return view('/teachers');
 });
