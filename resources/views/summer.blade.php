@@ -66,7 +66,7 @@
 
                     <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">GET STARTED</div></a>
                 </div>
-                <p class="text-center mb-4 mt-1"><small style="font-size: 0.75em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
+                <p class="text-center mb-4 mt-1"><small style="font-size: 0.5em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
                 <x-display graphic="summer-1.png" jr="" />
             </div>
             <div id="class-5-6" class="font-syne mt-5">
@@ -75,7 +75,7 @@
                     {{--                    <a href="" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">VIEW SCHEDULE</div></a>--}}
                                         <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">GET STARTED</div></a>
                 </div>
-                <p class="text-center mb-4 mt-1"><small style="font-size: 0.75em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
+                <p class="text-center mb-4 mt-1"><small style="font-size: 0.5em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
                 <x-display graphic="summer-2.png" jr="" />
                 {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
                 {{--                    <x-content tag="schedule-5-6"/>--}}
@@ -87,7 +87,7 @@
                     {{--                    <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">VIEW SCHEDULE</div></a>--}}
                                         <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">GET STARTED</div></a>
                 </div>
-                <p class="text-center mb-4 mt-1"><small style="font-size: 0.75em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
+                <p class="text-center mb-4 mt-1"><small style="font-size: 0.5em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
                 <x-display graphic="summer-3.png" jr="" />
 
                 {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
@@ -100,7 +100,7 @@
                     {{--                    <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">VIEW SCHEDULE</div></a>--}}
                                         <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">GET STARTED</div></a>
                 </div>
-                <p class="text-center mb-4 mt-1"><small style="font-size: 0.75em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
+                <p class="text-center mb-4 mt-1"><small style="font-size: 0.5em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
                 <x-display graphic="summer-4.png" jr="" />
                 <br><br>
                 <x-display graphic="summer-5.png" jr="" />
