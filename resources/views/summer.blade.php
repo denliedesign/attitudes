@@ -88,7 +88,7 @@
                                         <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">GET STARTED</div></a>
                 </div>
                 <p class="text-center mb-4 mt-1"><small style="font-size: 0.6em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
-                <x-display graphic="summer-3.png" jr="" />
+                <x-display graphic="summer-7-9-new.png" jr="" />
 
                 {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
                 {{--                    <x-content tag="schedule-7-12"/>--}}
