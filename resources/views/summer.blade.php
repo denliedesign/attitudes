@@ -53,9 +53,9 @@
                     <li class="nav-item">
                         <a class="nav-link m-1 rounded shadow btn-red btn-family" href="#class-teens">Teens</a>
                     </li>
-                    {{--                                <li class="nav-item">--}}
-                    {{--                                    <a class="nav-link m-1 rounded shadow btn-green btn-family" href="#class-boys">All Boys</a>--}}
-                    {{--                                </li>--}}
+                                                    <li class="nav-item">
+                                                        <a class="nav-link m-1 rounded shadow btn-green btn-family" href="#class-price">Dates & Pricing</a>
+                                                    </li>
                 </ul>
             </div>
 
@@ -102,7 +102,17 @@
                 </div>
                 <p class="text-center mb-4 mt-1"><small style="font-size: 0.6em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>
                 <x-display graphic="summer-4.png" jr="" />
-                <br><br>
+                {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
+                {{--                    <x-content tag="schedule-teens"/>--}}
+                {{--                </div>--}}
+            </div>
+            <div id="class-price" class="font-syne mt-5">
+                <h2 class="mb-0 text-center font-staat" style="font-size: 3em;">Dates & Pricing</h2>
+                <div class="d-flex justify-content-center">
+                    {{--                    <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">VIEW SCHEDULE</div></a>--}}
+{{--                    <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">GET STARTED</div></a>--}}
+                </div>
+{{--                <p class="text-center mb-4 mt-1"><small style="font-size: 0.6em;" class="text-muted fw-bold">In Parent Portal Sort By: Ascending & Filter Session: Summer 2024</small></p>--}}
                 <x-display graphic="summer-5.png" jr="" />
                 {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
                 {{--                    <x-content tag="schedule-teens"/>--}}
