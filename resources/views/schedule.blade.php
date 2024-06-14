@@ -86,7 +86,7 @@
 {{--                                <a href="" target="_blank" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">VIEW SCHEDULE</div></a>--}}
 {{--                                <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-green shadow mx-2">GET STARTED</div></a>--}}
                             </div>
-                            <x-display graphic="ages-1.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%203-4%7CAges%201-2.5&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
+                            <x-display graphic="ages-1-b.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%203-4%7CAges%201-2.5&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
 {{--                            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
 {{--                                <x-content tag="schedule"/>--}}
 {{--                            </div>--}}
@@ -124,7 +124,7 @@
 {{--                    <a href="" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">VIEW SCHEDULE</div></a>--}}
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-blue shadow mx-2">GET STARTED</div></a>--}}
                 </div>
-                <x-display graphic="ages-2.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%205-6&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
+                <x-display graphic="ages-2-b.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%205-6&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
                 {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
 {{--                    <x-content tag="schedule-5-6"/>--}}
 {{--                </div>--}}
@@ -135,7 +135,7 @@
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">VIEW SCHEDULE</div></a>--}}
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">GET STARTED</div></a>--}}
                 </div>
-                <x-display graphic="ages-3.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%207-9&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
+                <x-display graphic="ages-3-b.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%207-9&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
                 <x-display graphic="" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Tweens%2010-12%7CAges%2010%20and%20up&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
 
                 {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
@@ -148,7 +148,7 @@
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">VIEW SCHEDULE</div></a>--}}
 {{--                    <a href="/schedule#get-started" class="text-decoration-none"><div class="btn btn-family rounded btn-red shadow mx-2">GET STARTED</div></a>--}}
                 </div>
-                <x-display graphic="ages-4.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%2014-17%7CAges%2010%20and%20up%7CAges%2014%20and%20up&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
+                <x-display graphic="ages-4-b.png" jr="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=Try%20it%20Week%202024&cat3=Ages%2014-17%7CAges%2010%20and%20up%7CAges%2014%20and%20up&showcols=days,times&hidecols=class%20starts,class%20ends,gender,ages,tuition&sort=age,days,times" />
 {{--                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">--}}
 {{--                    <x-content tag="schedule-teens"/>--}}
 {{--                </div>--}}
