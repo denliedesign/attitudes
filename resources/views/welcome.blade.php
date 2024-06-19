@@ -5,20 +5,22 @@
     <div>
         <div id="side-trial" class="offcanvas offcanvas-end shadow" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Try a No Risk Trial Class</h5>
+{{--                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Try a No Risk Trial Class</h5>--}}
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Sign up for Summer today</h5>
                 <button type="button" class="btn-close" onclick="toggleOffcanvas()" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <form action="javascript:void(0);" method="POST" class="text-dark" onsubmit="return false;">
-                    <div class="row g-0 align-items-center">
-                        <div class="col-auto mx-0">
-                            <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">
-                        </div>
-                        <div class="col-auto mx-0">
-                            <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>
-                        </div>
-                    </div>
-                </form>
+                <div class="col d-flex justify-content-start"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Summer Schedule</div></a></div>
+                {{--                <form action="javascript:void(0);" method="POST" class="text-dark" onsubmit="return false;">--}}
+{{--                    <div class="row g-0 align-items-center">--}}
+{{--                        <div class="col-auto mx-0">--}}
+{{--                            <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">--}}
+{{--                        </div>--}}
+{{--                        <div class="col-auto mx-0">--}}
+{{--                            <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </form>--}}
             </div>
         </div>
     </div>
@@ -33,9 +35,9 @@
                 <br>
                 <div class="row">
 {{--                    <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow btn btn-family btn-green">Schedule A Trial</div></a></div>--}}
-                    <div class="col"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Try it Week</div></a></div>
-                    <div class="col"><a href="/summer"><div class="shadow btn btn-family btn-green">Summer Schedule</div></a></div>
-                    <div class="col"><a href="/contact-us"><div class="shadow btn btn-family btn-red">Contact Us</div></a></div>
+{{--                    <div class="col"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Try it Week</div></a></div>--}}
+                    <div class="col d-flex justify-content-end"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Summer Schedule</div></a></div>
+                    <div class="col d-flex justify-content-start"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-red">Contact Us</div></a></div>
                 </div>
             </h2>
         </div>
@@ -56,9 +58,9 @@
 {{--                    <a class="d-flex justify-content-center text-decoration-none" href="/schedule"><div class="shadow m-3 btn btn-lg btn-family btn-blue">Find Your Class</div></a>--}}
 {{--                    <a class="d-flex justify-content-center text-decoration-none" href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow m-3 btn btn-lg btn-family btn-pink">Summer Schedule</div></a>--}}
 {{--                    <a class="d-flex justify-content-center text-decoration-none" href="/contact-us"><div class="shadow m-3 btn btn-lg btn-family btn-red">Contact Us</div></a>--}}
-                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Try it Week</div></a></div>
-                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/summer"><div class="shadow btn btn-family btn-green">Summer Schedule</div></a></div>
-                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/contact-us"><div class="shadow btn btn-family btn-red">Contact Us</div></a></div>
+{{--                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Try it Week</div></a></div>--}}
+                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Summer Schedule</div></a></div>
+                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-red">Contact Us</div></a></div>
                 </div>
             </div>
             </p>
@@ -146,7 +148,7 @@
                         <img src="/images/class-4-and-under.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(2.0);">
                     </div>
                     <div class="d-flex justify-content-center">
-                        <a class="text-decoration-none text-white text-center" href="/schedule#class-4-and-under">
+                        <a class="text-decoration-none text-white text-center" href="/summer#class-4-and-under">
                             <div class="font-staat m-2 btn btn-lg shadow brand-green text-white" style="font-size: 1.5em;">Ages 4 & under</div>
                         </a>
                     </div>
@@ -156,7 +158,7 @@
                        <img src="/images/class-5-6.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(2.0);">
                    </div>
                    <div class="d-flex justify-content-center">
-                       <a class="text-decoration-none text-white text-center" href="/schedule#class-5-6">
+                       <a class="text-decoration-none text-white text-center" href="/summer#class-5-6">
                            <div class="font-staat m-2 btn btn-lg shadow brand-blue text-white" style="font-size: 1.5em;">Ages 5-6</div>
                        </a>
                    </div>
@@ -166,7 +168,7 @@
                        <img src="/images/class-7-12.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(2.0);">
                    </div>
                    <div class="d-flex justify-content-center">
-                       <a class="text-decoration-none text-white text-center" href="/schedule#class-7-12">
+                       <a class="text-decoration-none text-white text-center" href="/summer#class-7-12">
                            <div class="font-staat m-2 btn btn-lg shadow brand-pink text-white" style="font-size: 1.5em;">Ages 7-12</div>
                        </a>
                    </div>
@@ -176,7 +178,7 @@
                        <img src="/images/class-teen.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(2.0);">
                    </div>
                    <div class="d-flex justify-content-center">
-                       <a class="text-decoration-none text-white text-center" href="/schedule#class-teens">
+                       <a class="text-decoration-none text-white text-center" href="/summer#class-teens">
                            <div class="font-staat m-2 btn btn-lg shadow brand-red text-white" style="font-size: 1.5em;">Teens</div>
                        </a>
                    </div>
@@ -186,7 +188,7 @@
                        <img src="/images/class-boys.jpg" alt="dancer posing" class="img-fluid" style="transform: scale(1.25);">
                    </div>
                    <div class="d-flex justify-content-center">
-                       <a class="text-decoration-none text-white text-center" href="/schedule#class-boys">
+                       <a class="text-decoration-none text-white text-center" href="/summer#class-boys">
                            <div class="font-staat m-2 btn btn-lg shadow brand-green text-white" style="font-size: 1.5em;">All Boys</div>
                        </a>
                    </div>
@@ -366,18 +368,20 @@
                             Find joy in moving
                             </span>
                         </div>
-                        <div class="mt-2" style="font-size: 1.5em;">Try a <u>NO RISK</u> trial class today.</div>
+{{--                        <div class="mt-2" style="font-size: 1.5em;">Try a <u>NO RISK</u> trial class today.</div>--}}
+                        <div class="mt-2" style="font-size: 1.5em;">Sign up for Summer today.</div>
                         <div class="d-flex justify-content-center mt-2">
-                            <form action="javascript:void(0);" method="POST" onsubmit="return false;">
-                                <div class="row g-0 align-items-center">
-                                    <div class="col-auto mx-0">
-                                        <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">
-                                    </div>
-                                    <div class="col-auto mx-0">
-                                        <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>
-                                    </div>
-                                </div>
-                            </form>
+                            <div class="col d-flex justify-content-center"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Summer Schedule</div></a></div>
+                            {{--                            <form action="javascript:void(0);" method="POST" onsubmit="return false;">--}}
+{{--                                <div class="row g-0 align-items-center">--}}
+{{--                                    <div class="col-auto mx-0">--}}
+{{--                                        <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="col-auto mx-0">--}}
+{{--                                        <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </form>--}}
                         </div>
                     </div>
                 </div>
@@ -639,7 +643,7 @@
                 <h2 class="fw-bold text-center text-white" style="font-size: 2.75em;">Our Guarantee</h2>
                 <p class="text-center txt-crimson" style="font-size: 1.75em;">You'll love your experience or we'll work with you to make it right!</p>
                 <div class="d-flex justify-content-center">
-                    <a href="/schedule"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Find Your Class</div></a>
+                    <a href="/summer"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Find Your Class</div></a>
                     <a href="mailto:@gmail.com?subject=Schedule A Call"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Schedule A Call</div></a>
                 </div>
             </div>

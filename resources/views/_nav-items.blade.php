@@ -5,7 +5,7 @@
         Schedule
     </a>
     <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="/schedule">Try it Week 6/10-6/15</a></li>
+        <li><a class="dropdown-item" href="/schedule">Fall</a></li>
         <li><a class="dropdown-item" href="/summer">Summer</a></li>
     </ul>
 </li>
@@ -19,7 +19,7 @@
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/aboutus">About</a></li>
 
 <li class="nav-item mx-1">
-    <a href="/schedule" class="nav-link">
+    <a href="/summer" class="nav-link">
         <div class="btn btn-danger shadow">Find Your Class</div>
     </a>
 </li>
