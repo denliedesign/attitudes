@@ -38,8 +38,8 @@
 
     <div class="bg-white">
         <div class="container pb-5 pt-3">
-            <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">Fall Schedule 2024</h3>
-            <p class="text-center font-syne fw-bold" style="font-size: 20px;">Coming Soon!</p>
+            <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">COMING SOON</h3>
+{{--            <p class="text-center font-syne fw-bold" style="font-size: 20px;">Coming Soon!</p>--}}
         </div>
     </div>
 

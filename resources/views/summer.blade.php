@@ -37,7 +37,7 @@
         <div class="container pb-5 pt-3">
             <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">Summer</h3>
             <p class="text-center font-syne fw-bold" style="font-size: 20px;">Watch their confidence soar with dance this summer!</p>
-            <p class="text-center font-syne text-muted">Classes Begin 7/6 | 6 Weeks<br>PAY AS YOU GO!</p>
+            <p class="text-center font-syne text-muted">Classes Begin 7/6 | 6 Weeks<br>PAY PER CLASS</p>
             <!-- START KAPA -->
             <div class="d-flex justify-content-center font-syne">
                 <ul class="nav pt-2 pb-5 d-flex justify-content-center">
