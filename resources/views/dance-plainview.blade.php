@@ -18,6 +18,10 @@
             <p class="text-center font-syne" style="font-size: 22px;">
                 At Attitudes in Motion, we believe that dance is the heartbeat of Plainview. Our studio provides a diverse array of dance classes that are integral to community spirit and personal development. From energizing hip hop sessions to graceful ballet lessons, AIM is a cornerstone in Plainview for nurturing talents and creating lifelong memories. We pride ourselves on being more than just a dance studio; we are a place where friendships are formed, skills are honed, and the joy of dance is shared. Engaging in dance lessons in Plainview at AIM means becoming part of a family that supports and celebrates each other's achievements, both on and off the dance floor.
             </p>
+            <div class="d-flex justify-content-center font-syne">
+                <small><a class="text-muted text-decoration-none" href="/tumbling-classes-plainview">Tumbling Classes Plainview</a></small>
+                &nbsp;
+            </div>
         </div>
     </div>
 

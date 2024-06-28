@@ -62,6 +62,9 @@ Route::get('/dance-plainview', function () {
 Route::get('/tumbling-classes-bethpage', function () {
     return view('/tumbling-classes-bethpage');
 });
+Route::get('/tumbling-classes-plainview', function () {
+    return view('/tumbling-classes-plainview');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
