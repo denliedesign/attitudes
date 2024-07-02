@@ -65,9 +65,9 @@ Route::get('/tumbling-classes-bethpage', function () {
 Route::get('/tumbling-classes-plainview', function () {
     return view('/tumbling-classes-plainview');
 });
-Route::get('/childrens-dance-classes-summer-2024', function () {
-    return view('/childrens-dance-classes-summer-2024');
-});
+//Route::get('/childrens-dance-classes-summer-2024', function () {
+//    return view('/childrens-dance-classes-summer-2024');
+//});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
