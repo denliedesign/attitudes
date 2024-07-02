@@ -81,6 +81,7 @@
             @include('_nav')
             @yield('content')
             @include('_footer')
+            @include('_mobile-footer')
         </div>
 
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

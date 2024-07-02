@@ -124,3 +124,4 @@
     <a class="text-decoration-none text-muted mx-2" href="/dance-plainview"><small>Dance Plainview</small></a>
     <a class="text-decoration-none text-muted mx-2" href="https://denliedesign.com/" target="_blank"><small>Dance Website Design by Denlie Design</small></a>
 </div>
+<div class="d-block d-md-none" style="padding-bottom: 70px;"></div>
