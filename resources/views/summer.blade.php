@@ -3,6 +3,30 @@
 @section('content')
     @include('_trial-modal')
 
+    <div>
+        <div id="side-trial" class="offcanvas offcanvas-end show shadow" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                {{--                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Try a No Risk Trial Class</h5>--}}
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Sign up for Fall today</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="col d-flex justify-content-start"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-green">Fall Schedule</div></a></div>
+
+                {{--                <form action="javascript:void(0);" method="POST" class="text-dark" onsubmit="return false;">--}}
+                {{--                    <div class="row g-0 align-items-center">--}}
+                {{--                        <div class="col-auto mx-0">--}}
+                {{--                            <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">--}}
+                {{--                        </div>--}}
+                {{--                        <div class="col-auto mx-0">--}}
+                {{--                            <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>--}}
+                {{--                        </div>--}}
+                {{--                    </div>--}}
+                {{--                </form>--}}
+            </div>
+        </div>
+    </div>
+
 {{--    <div>--}}
 {{--        <div id="side-trial" class="offcanvas offcanvas-end show shadow" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">--}}
 {{--            <div class="offcanvas-header">--}}

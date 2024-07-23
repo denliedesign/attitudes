@@ -6,11 +6,14 @@
         <div id="side-trial" class="offcanvas offcanvas-end shadow" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
             <div class="offcanvas-header">
 {{--                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Try a No Risk Trial Class</h5>--}}
-                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Sign up for Summer today</h5>
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Sign up today</h5>
                 <button type="button" class="btn-close" onclick="toggleOffcanvas()" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <div class="col d-flex justify-content-start"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Summer Schedule</div></a></div>
+                <div class="d-flex justify-content-center">
+                    <div class="mx-1"><a href="/schedule"><div class="shadow btn btn-family btn-green">Fall Schedule</div></a></div>
+                    <div class="mx-1"><a href="/summer"><div class="shadow btn btn-family btn-blue">Summer Schedule</div></a></div>
+                </div>
                 {{--                <form action="javascript:void(0);" method="POST" class="text-dark" onsubmit="return false;">--}}
 {{--                    <div class="row g-0 align-items-center">--}}
 {{--                        <div class="col-auto mx-0">--}}
@@ -36,8 +39,9 @@
                 <div class="row">
 {{--                    <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow btn btn-family btn-green">Schedule A Trial</div></a></div>--}}
 {{--                    <div class="col"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Try it Week</div></a></div>--}}
-                    <div class="col d-flex justify-content-end"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Summer Schedule</div></a></div>
-                    <div class="col d-flex justify-content-start"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-red">Contact Us</div></a></div>
+                    <div class="col"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-green">Fall Schedule</div></a></div>
+                    <div class="col"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-blue">Summer Schedule</div></a></div>
+                    <div class="col"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-red">Contact Us</div></a></div>
                 </div>
             </h2>
         </div>
@@ -369,9 +373,10 @@
                             </span>
                         </div>
 {{--                        <div class="mt-2" style="font-size: 1.5em;">Try a <u>NO RISK</u> trial class today.</div>--}}
-                        <div class="mt-2" style="font-size: 1.5em;">Sign up for Summer today.</div>
+                        <div class="mt-2" style="font-size: 1.5em;">Sign up today.</div>
                         <div class="d-flex justify-content-center mt-2">
-                            <div class="col d-flex justify-content-center"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Summer Schedule</div></a></div>
+                            <div class="col"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Fall Schedule</div></a></div>
+                            <div class="col"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-blue">Summer Schedule</div></a></div>
                             {{--                            <form action="javascript:void(0);" method="POST" onsubmit="return false;">--}}
 {{--                                <div class="row g-0 align-items-center">--}}
 {{--                                    <div class="col-auto mx-0">--}}
@@ -643,7 +648,7 @@
                 <h2 class="fw-bold text-center text-white" style="font-size: 2.75em;">Our Guarantee</h2>
                 <p class="text-center txt-crimson" style="font-size: 1.75em;">You'll love your experience or we'll work with you to make it right!</p>
                 <div class="d-flex justify-content-center">
-                    <a href="/summer"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Find Your Class</div></a>
+                    <a href="/schedule"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Find Your Class</div></a>
                     <a href="mailto:@gmail.com?subject=Schedule A Call"><div class="btn btn-lg btn-danger shadow mx-4 text-white">Schedule A Call</div></a>
                 </div>
             </div>

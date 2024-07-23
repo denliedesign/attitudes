@@ -19,7 +19,7 @@
 <li class="nav-item mx-1 text-uppercase"><a class="nav-link" href="/aboutus">About</a></li>
 
 <li class="nav-item mx-1">
-    <a href="/summer" class="nav-link">
+    <a href="/schedule" class="nav-link">
         <div class="btn btn-danger shadow">Find Your Class</div>
     </a>
 </li>
