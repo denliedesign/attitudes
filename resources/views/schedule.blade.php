@@ -56,6 +56,18 @@
                 </iframe>
             </div>
             <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGKeY9HFnY&#x2F;vUvu5f1BCSvjdluhUa0hSw&#x2F;view?utm_content=DAGKeY9HFnY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 1-2.5 + 3-4</h3>
+            <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%203-4%7CAges%201-2.5&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
+            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 5-6</h3>
+            <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%205-6&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
+
+            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 7-10</h3>
+            <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%207-9%7CAges%207-10&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
+            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 10-12</h3>
+            <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%207-12%7CAges%2010%20and%20up&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,starttime,ages"></script>
+            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Teens</h3>
+            <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Teens%2013-18%7CAges%2010%20and%20up&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,starttime,ages"></script>
+
         </div>
     </div>
 
