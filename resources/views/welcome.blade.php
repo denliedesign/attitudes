@@ -339,7 +339,7 @@
         </div>
     </div>
 
-    <div style="position: relative; height: 325px;">
+    <div style="position: relative; height: 100%;">
         {{--<div style="position: relative; height: 300px;">--}}
         <div class="container" style="height: 100%;">
             <div class="row" style="width: 100%; height: 100%; z-index: 1; position: relative;">
@@ -354,7 +354,7 @@
                         <div class="mt-2" style="font-size: 1.5em;">Sign up today.</div>
                         <div class="mt-2">
                             <div class="col"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-green">2024-2025 Schedule</div></a></div>
-                            <div class="col"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-blue mt-3">Summer Schedule</div></a></div>
+                            <div class="col"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-blue my-3">Summer Schedule</div></a></div>
                             {{--                            <form action="javascript:void(0);" method="POST" onsubmit="return false;">--}}
 {{--                                <div class="row g-0 align-items-center">--}}
 {{--                                    <div class="col-auto mx-0">--}}
