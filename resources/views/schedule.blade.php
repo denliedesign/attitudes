@@ -38,8 +38,8 @@
 
     <div class="bg-white">
         <div class="container pb-5 pt-3">
-            <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">Fall</h3>
-            <p class="text-center font-syne fw-bold" style="font-size: 20px;">Watch their confidence soar with dance this summer!</p>
+            <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">2024-2025 Season</h3>
+            <p class="text-center font-syne fw-bold" style="font-size: 20px;">Watch their confidence soar with dance this season!</p>
             {{--            <p class="text-center font-syne text-muted">Classes Begin 7/6 | 6 Weeks<br>PAY PER CLASS</p>--}}
             <div class="d-flex justify-content-center">
                 {{--                    <a href="/parent-portal" class="text-decoration-none"><div class="btn btn-family rounded btn-pink shadow mx-2">VIEW SCHEDULE</div></a>--}}
@@ -56,17 +56,54 @@
                 </iframe>
             </div>
             <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGKeY9HFnY&#x2F;vUvu5f1BCSvjdluhUa0hSw&#x2F;view?utm_content=DAGKeY9HFnY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
-            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 1-2.5 + 3-4</h3>
-            <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%203-4%7CAges%201-2.5&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
-            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 5-6</h3>
-            <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%205-6&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
 
-            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 7-10</h3>
-            <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%207-9%7CAges%207-10&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
-            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 10-12</h3>
-            <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%207-12%7CAges%2010%20and%20up&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,starttime,ages"></script>
-            <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Teens</h3>
-            <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Teens%2013-18%7CAges%2010%20and%20up&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,starttime,ages"></script>
+
+            <!-- START KAPA -->
+            <div class="d-flex justify-content-center font-syne">
+                <ul class="nav pt-2 pb-5 d-flex justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link m-1 rounded shadow btn-green btn-family" href="#class-1-4">Ages 1-2.5 + 3-4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-1 rounded shadow btn-blue btn-family" href="#class-5-6">Ages 5-6</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-1 rounded shadow btn-pink btn-family" href="#class-7-10">Ages 7-10</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-1 rounded shadow btn-green btn-family" href="#class-10-12">Ages 10-12</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-1 rounded shadow btn-red btn-family" href="#class-teens">Teens</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- END KAPA -->
+
+            <div id="class-1-4">
+                <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 1-2.5 + 3-4</h3>
+                <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%203-4%7CAges%201-2.5&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
+            </div>
+
+            <div id="class-5-6">
+                <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 5-6</h3>
+                <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%205-6&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
+            </div>
+
+            <div id="class-7-10">
+                <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 7-10</h3>
+                <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%207-9%7CAges%207-10&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
+            </div>
+
+            <div id="class-10-12">
+                <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 10-12</h3>
+                <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%207-12%7CAges%2010%20and%20up&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,starttime,ages"></script>
+            </div>
+
+            <div id="class-teens">
+                <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Teens</h3>
+                <script type="text/javascript"  src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Teens%2013-18%7CAges%2010%20and%20up&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,starttime,ages"></script>
+            </div>
 
         </div>
     </div>

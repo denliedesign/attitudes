@@ -2,6 +2,8 @@
 @section('title', 'Parent Portal | Attitudes in Motion')
 @section('content')
 
+    @include('_fly-out')
+
     <div class="banner-wrap d-block" style="position: relative;">
         <div class="banner-parent"></div>
         <div class="custom-shape-divider-bottom-1663856745">

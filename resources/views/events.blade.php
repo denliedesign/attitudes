@@ -2,6 +2,8 @@
 @section('title', 'Events & Birthday Parties | Old Bethpage, NY')
 @section('content')
 
+    @include('_fly-out')
+
     <div class="banner-wrap d-block" style="position: relative;">
         <div class="banner-events"></div>
         <div class="custom-shape-divider-bottom-1663856745">

@@ -3,6 +3,8 @@
 @section('description', 'Discover the heart of dance in Bethpage at our premier studio! Offering dance classes across all styles, our Bethpage dance lessons are designed to inspire, challenge, and enrich dancers of all ages.')
 @section('content')
 
+    @include('_fly-out')
+
     <div class="banner-wrap d-block" style="position: relative;">
         <div class="banner-bethpage"></div>
         <div class="custom-shape-divider-bottom-1663856745">

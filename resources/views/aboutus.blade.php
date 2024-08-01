@@ -2,6 +2,8 @@
 @section('title', 'About | Attitudes in Motion')
 @section('content')
 
+    @include('_fly-out')
+
     <div class="banner-wrap d-block" style="position: relative;">
         <div class="banner-about"></div>
         <div class="custom-shape-divider-bottom-1663856745">

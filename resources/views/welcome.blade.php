@@ -2,31 +2,7 @@
 @section('content')
     @include('_trial-modal')
 
-    <div>
-        <div id="side-trial" class="offcanvas offcanvas-end shadow" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-            <div class="offcanvas-header">
-{{--                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Try a No Risk Trial Class</h5>--}}
-                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Sign up today</h5>
-                <button type="button" class="btn-close" onclick="toggleOffcanvas()" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <div class="d-flex justify-content-center">
-                    <div class="mx-1"><a href="/schedule"><div class="shadow btn btn-family btn-green">Fall Schedule</div></a></div>
-                    <div class="mx-1"><a href="/summer"><div class="shadow btn btn-family btn-blue">Summer Schedule</div></a></div>
-                </div>
-                {{--                <form action="javascript:void(0);" method="POST" class="text-dark" onsubmit="return false;">--}}
-{{--                    <div class="row g-0 align-items-center">--}}
-{{--                        <div class="col-auto mx-0">--}}
-{{--                            <input type="email" id="inputEmail" class="form-control mx-0" placeholder="Email">--}}
-{{--                        </div>--}}
-{{--                        <div class="col-auto mx-0">--}}
-{{--                            <button type="button" id="buttonSubmit" class="btn btn-flip-danger fw-bold shadow mx-0" onclick="showModal()">SUBMIT</button>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </form>--}}
-            </div>
-        </div>
-    </div>
+    @include('_fly-out')
 
     <div style="position: relative;" class="d-none d-lg-block">
         <div style="position:absolute; bottom: 40%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
@@ -39,7 +15,7 @@
                 <div class="row">
 {{--                    <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal"><div class="shadow btn btn-family btn-green">Schedule A Trial</div></a></div>--}}
 {{--                    <div class="col"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Try it Week</div></a></div>--}}
-                    <div class="col"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-green">Fall Schedule</div></a></div>
+                    <div class="col"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-green">2024-2025 Schedule</div></a></div>
                     <div class="col"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-blue">Summer Schedule</div></a></div>
                     <div class="col"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-red">Contact Us</div></a></div>
                 </div>
@@ -63,7 +39,9 @@
 {{--                    <a class="d-flex justify-content-center text-decoration-none" href="https://forms.gle/V5h81RVSbLrYLFfN7" target="_blank"><div class="shadow m-3 btn btn-lg btn-family btn-pink">Summer Schedule</div></a>--}}
 {{--                    <a class="d-flex justify-content-center text-decoration-none" href="/contact-us"><div class="shadow m-3 btn btn-lg btn-family btn-red">Contact Us</div></a>--}}
 {{--                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/schedule"><div class="shadow btn btn-family btn-blue">Try it Week</div></a></div>--}}
-                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Summer Schedule</div></a></div>
+
+                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-green">2024-2025 Schedule</div></a></div>
+                    <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-blue">Summer Schedule</div></a></div>
                     <div class="d-flex justify-content-center text-decoration-none m-3"><a href="/contact-us"><div class="shadow btn btn-lg btn-family btn-red">Contact Us</div></a></div>
                 </div>
             </div>
@@ -374,9 +352,9 @@
                         </div>
 {{--                        <div class="mt-2" style="font-size: 1.5em;">Try a <u>NO RISK</u> trial class today.</div>--}}
                         <div class="mt-2" style="font-size: 1.5em;">Sign up today.</div>
-                        <div class="d-flex justify-content-center mt-2">
-                            <div class="col"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-green">Fall Schedule</div></a></div>
-                            <div class="col"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-blue">Summer Schedule</div></a></div>
+                        <div class="mt-2">
+                            <div class="col"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-green">2024-2025 Schedule</div></a></div>
+                            <div class="col"><a href="/summer"><div class="shadow btn btn-lg btn-family btn-blue mt-3">Summer Schedule</div></a></div>
                             {{--                            <form action="javascript:void(0);" method="POST" onsubmit="return false;">--}}
 {{--                                <div class="row g-0 align-items-center">--}}
 {{--                                    <div class="col-auto mx-0">--}}
@@ -660,29 +638,5 @@
             </div>
         </div>
     </section>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            setTimeout(function () {
-                // After 6 seconds, add the 'show' class to display the module
-                document.getElementById('side-trial').classList.toggle('show');
-            }, 6000); // 6000 milliseconds = 6 seconds
-        });
-
-        function toggleOffcanvas() {
-            var offcanvasElement = document.getElementById('side-trial');
-            offcanvasElement.classList.toggle('show');
-
-            // If you're using Bootstrap 5 or newer, you might also need to manually adjust the visibility
-            // and the aria-hidden attribute for complete accessibility support.
-            if(offcanvasElement.classList.contains('show')) {
-                offcanvasElement.style.visibility = 'visible';
-                offcanvasElement.setAttribute('aria-hidden', 'false');
-            } else {
-                offcanvasElement.style.visibility = 'hidden';
-                offcanvasElement.setAttribute('aria-hidden', 'true');
-            }
-        }
-    </script>
 
 @endsection

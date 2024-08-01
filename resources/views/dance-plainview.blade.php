@@ -3,6 +3,8 @@
 @section('description', 'Step into AIM in Plainview, where dance is celebrated in every move! Our Plainview dance classes are crafted to empower dancers of all ages and skill levels, enhancing both technique and creativity.')
 @section('content')
 
+    @include('_fly-out')
+
     <div class="banner-wrap d-block" style="position: relative;">
         <div class="banner-plainview"></div>
         <div class="custom-shape-divider-bottom-1663856745">

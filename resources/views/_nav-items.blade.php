@@ -5,7 +5,7 @@
         Schedule
     </a>
     <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="/schedule">Fall</a></li>
+        <li><a class="dropdown-item" href="/schedule">2024-2025 Season</a></li>
         <li><a class="dropdown-item" href="/summer">Summer</a></li>
     </ul>
 </li>

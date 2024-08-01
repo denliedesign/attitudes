@@ -7,11 +7,11 @@
         <div id="side-trial" class="offcanvas offcanvas-end show shadow" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
             <div class="offcanvas-header">
                 {{--                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Try a No Risk Trial Class</h5>--}}
-                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Sign up for Fall today</h5>
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Sign up for 2024-2025 today</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <div class="col d-flex justify-content-start"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-green">Fall Schedule</div></a></div>
+                <div class="col d-flex justify-content-start"><a href="/schedule"><div class="shadow btn btn-lg btn-family btn-green" style="font-size: 0.95em;">2024-2025 Season Schedule</div></a></div>
 
                 {{--                <form action="javascript:void(0);" method="POST" class="text-dark" onsubmit="return false;">--}}
                 {{--                    <div class="row g-0 align-items-center">--}}
