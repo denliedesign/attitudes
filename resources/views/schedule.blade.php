@@ -38,7 +38,7 @@
 
     <div class="bg-white">
         <div class="container pb-5 pt-3">
-            <h3 class="font-staat text-center" style="font-size: 100px; line-height: 0.9em;">2024-2025 Season</h3>
+            <h3 class="font-staat text-center" style="font-size: 80px; line-height: 0.9em;">2024-2025</h3>
             <p class="text-center font-syne fw-bold" style="font-size: 20px;">Watch their confidence soar with dance this season!</p>
             {{--            <p class="text-center font-syne text-muted">Classes Begin 7/6 | 6 Weeks<br>PAY PER CLASS</p>--}}
             <div class="d-flex justify-content-center">
@@ -81,7 +81,7 @@
             <!-- END KAPA -->
 
             <div id="class-1-4">
-                <h3 class="font-staat text-center pt-3" style="font-size: 80px;">Ages 1-2.5 + 3-4</h3>
+                <h3 class="font-staat text-center pt-3" style="font-size: 60px;">Ages 1-2.5 + 3-4</h3>
                 <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=509319&session=2024-2025&cat3=Ages%203-4%7CAges%201-2.5&showcols=ages,days,times&hidecols=class%20starts,class%20ends,gender,tuition&sort=days,times,ages"></script>
             </div>
 
