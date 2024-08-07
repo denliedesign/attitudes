@@ -68,6 +68,15 @@ Route::get('/tumbling-classes-plainview', function () {
 //Route::get('/childrens-dance-classes-summer-2024', function () {
 //    return view('/childrens-dance-classes-summer-2024');
 //});
+Route::get('/dance-dix-hills', function () {
+    return view('/dance-dix-hills');
+});
+Route::get('/dance-syosset', function () {
+    return view('/dance-syosset');
+});
+//Route::get('/dance-farmingdale', function () {
+//    return view('/dance-farmingdale');
+//});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
