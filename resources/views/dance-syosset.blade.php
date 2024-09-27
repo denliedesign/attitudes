@@ -21,7 +21,7 @@
                 Welcome to Attitudes in Motion, the leading children's dance studio in Syosset! We provide a diverse range of dance classes to nurture and inspire young dancers. Our skilled instructors deliver engaging dance lessons for toddlers and children of all skill levels. Whether you're seeking beginner toddler dance classes or more advanced training, our Syosset dance studio is the perfect environment for your child to thrive and enjoy the art of dance. Join our community and experience the joy of dance at Attitudes in Motion in Syosset!
             </p>
             <div class="d-flex justify-content-center font-syne">
-                {{--                <small><a class="text-muted text-decoration-none" href="/tumbling-classes-plainview">Tumbling Classes Plainview</a></small>--}}
+                                <small><a class="text-muted text-decoration-none" href="/dance-studios-syosset">Dance Studios Syosset</a></small>
                 &nbsp;
             </div>
         </div>

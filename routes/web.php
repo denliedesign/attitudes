@@ -74,6 +74,9 @@ Route::get('/dance-dix-hills', function () {
 Route::get('/dance-syosset', function () {
     return view('/dance-syosset');
 });
+Route::get('/dance-studios-syosset', function () {
+    return view('/dance-studios-syosset');
+});
 Route::get('/dance-farmingdale', function () {
     return view('/dance-farmingdale');
 });
