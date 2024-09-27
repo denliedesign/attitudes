@@ -21,7 +21,7 @@
                 Welcome to Attitudes in Motion, your premier destination for dance classes in Farmingdale. Nestled in the heart of the community, we offer a vibrant array of dance lessons that cater to all ages and skill levels. Whether you're seeking Farmingdale dance studios that provide ballet, hip-hop, or contemporary styles, our dedicated instructors are here to guide every step and leap. Our state-of-the-art facilities are designed to inspire and enhance your dancing experience, making us a top choice for dance Farmingdale enthusiasts. Join us at Attitudes in Motion, where passion meets the art of dance, right here in Farmingdale NY.
             </p>
             <div class="d-flex justify-content-center font-syne">
-                {{--                <small><a class="text-muted text-decoration-none" href="/tumbling-classes-plainview">Tumbling Classes Plainview</a></small>--}}
+                                <small><a class="text-muted text-decoration-none" href="/toddler-dance-classes-farmingdale">Toddler Dance Classes Farmingdale</a></small>
                 &nbsp;
             </div>
         </div>

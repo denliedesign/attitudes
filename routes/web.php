@@ -77,6 +77,9 @@ Route::get('/dance-syosset', function () {
 Route::get('/dance-farmingdale', function () {
     return view('/dance-farmingdale');
 });
+Route::get('/toddler-dance-classes-farmingdale', function () {
+    return view('/toddler-dance-classes-farmingdale');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
