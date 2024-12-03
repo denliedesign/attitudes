@@ -118,13 +118,14 @@
     </div>
 </div>
 <div id="bottom" class="text-muted text-center py-3 font-syne">
-    © 2023 Attitudes in Motion
+    © 2024 Attitudes in Motion
     <br>
     <a class="text-decoration-none text-muted mx-2" href="/dance-bethpage"><small>Dance Bethpage</small></a>
     <a class="text-decoration-none text-muted mx-2" href="/dance-plainview"><small>Dance Plainview</small></a>
     <a class="text-decoration-none text-muted mx-2" href="/dance-dix-hills"><small>Dance Dix Hills</small></a>
     <a class="text-decoration-none text-muted mx-2" href="/dance-syosset"><small>Dance Syosset</small></a>
     <a class="text-decoration-none text-muted mx-2" href="/dance-farmingdale"><small>Dance Farmingdale</small></a>
+    <a class="text-decoration-none text-muted mx-2" href="/dance-melville"><small>Dance Melville</small></a>
     <a class="text-decoration-none text-muted mx-2" href="https://denliedesign.com/" target="_blank"><small>Dance Website Design by Denlie Design</small></a>
 </div>
 <div class="d-block d-md-none" style="padding-bottom: 70px;"></div>

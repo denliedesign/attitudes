@@ -83,6 +83,9 @@ Route::get('/dance-farmingdale', function () {
 Route::get('/toddler-dance-classes-farmingdale', function () {
     return view('/toddler-dance-classes-farmingdale');
 });
+Route::get('/dance-melville', function () {
+    return view('/dance-melville');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
